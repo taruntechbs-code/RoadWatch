@@ -1,0 +1,322 @@
+[
+  {
+    "authority_id": "A001",
+    "department_name": "Greater Chennai Corporation - Zone 1",
+    "officer_name": "Er. Rajasekar M",
+    "designation": "Executive Engineer",
+    "road_types_handled": [
+      "Corporation"
+    ],
+    "zones_handled": [
+      "Zone 1"
+    ],
+    "office_contact": "044-25384001",
+    "email": "ee.zone1@chennaicorporation.gov.in"
+  },
+  {
+    "authority_id": "A002",
+    "department_name": "Greater Chennai Corporation - Zone 2",
+    "officer_name": "Er. Priya Narayanan",
+    "designation": "Executive Engineer",
+    "road_types_handled": [
+      "Corporation"
+    ],
+    "zones_handled": [
+      "Zone 2"
+    ],
+    "office_contact": "044-25384002",
+    "email": "ee.zone2@chennaicorporation.gov.in"
+  },
+  {
+    "authority_id": "A003",
+    "department_name": "Greater Chennai Corporation - Zone 3",
+    "officer_name": "Er. Senthil Kumar",
+    "designation": "Executive Engineer",
+    "road_types_handled": [
+      "Corporation"
+    ],
+    "zones_handled": [
+      "Zone 3"
+    ],
+    "office_contact": "044-25384003",
+    "email": "ee.zone3@chennaicorporation.gov.in"
+  },
+  {
+    "authority_id": "A004",
+    "department_name": "Greater Chennai Corporation - Zone 4",
+    "officer_name": "Er. Lakshmi R",
+    "designation": "Executive Engineer",
+    "road_types_handled": [
+      "Corporation"
+    ],
+    "zones_handled": [
+      "Zone 4"
+    ],
+    "office_contact": "044-25384004",
+    "email": "ee.zone4@chennaicorporation.gov.in"
+  },
+  {
+    "authority_id": "A005",
+    "department_name": "Greater Chennai Corporation - Zone 5",
+    "officer_name": "Er. Aravind S",
+    "designation": "Executive Engineer",
+    "road_types_handled": [
+      "Corporation"
+    ],
+    "zones_handled": [
+      "Zone 5"
+    ],
+    "office_contact": "044-25384005",
+    "email": "ee.zone5@chennaicorporation.gov.in"
+  },
+  {
+    "authority_id": "A006",
+    "department_name": "Greater Chennai Corporation - Zone 6",
+    "officer_name": "Er. Meenakshi V",
+    "designation": "Executive Engineer",
+    "road_types_handled": [
+      "Corporation"
+    ],
+    "zones_handled": [
+      "Zone 6"
+    ],
+    "office_contact": "044-25384006",
+    "email": "ee.zone6@chennaicorporation.gov.in"
+  },
+  {
+    "authority_id": "A007",
+    "department_name": "Greater Chennai Corporation - Zone 7",
+    "officer_name": "Er. Gopinath K",
+    "designation": "Executive Engineer",
+    "road_types_handled": [
+      "Corporation"
+    ],
+    "zones_handled": [
+      "Zone 7"
+    ],
+    "office_contact": "044-25384007",
+    "email": "ee.zone7@chennaicorporation.gov.in"
+  },
+  {
+    "authority_id": "A008",
+    "department_name": "Greater Chennai Corporation - Zone 8",
+    "officer_name": "Er. Janani P",
+    "designation": "Executive Engineer",
+    "road_types_handled": [
+      "Corporation"
+    ],
+    "zones_handled": [
+      "Zone 8"
+    ],
+    "office_contact": "044-25384008",
+    "email": "ee.zone8@chennaicorporation.gov.in"
+  },
+  {
+    "authority_id": "A009",
+    "department_name": "Greater Chennai Corporation - Zone 9",
+    "officer_name": "Er. Ramesh B",
+    "designation": "Executive Engineer",
+    "road_types_handled": [
+      "Corporation"
+    ],
+    "zones_handled": [
+      "Zone 9"
+    ],
+    "office_contact": "044-25384009",
+    "email": "ee.zone9@chennaicorporation.gov.in"
+  },
+  {
+    "authority_id": "A010",
+    "department_name": "Greater Chennai Corporation - Zone 10",
+    "officer_name": "Er. Kavitha N",
+    "designation": "Executive Engineer",
+    "road_types_handled": [
+      "Corporation"
+    ],
+    "zones_handled": [
+      "Zone 10"
+    ],
+    "office_contact": "044-25384010",
+    "email": "ee.zone10@chennaicorporation.gov.in"
+  },
+  {
+    "authority_id": "A011",
+    "department_name": "Greater Chennai Corporation - Zone 11",
+    "officer_name": "Er. Balaji T",
+    "designation": "Executive Engineer",
+    "road_types_handled": [
+      "Corporation"
+    ],
+    "zones_handled": [
+      "Zone 11"
+    ],
+    "office_contact": "044-25384011",
+    "email": "ee.zone11@chennaicorporation.gov.in"
+  },
+  {
+    "authority_id": "A012",
+    "department_name": "Greater Chennai Corporation - Zone 12",
+    "officer_name": "Er. Fathima S",
+    "designation": "Executive Engineer",
+    "road_types_handled": [
+      "Corporation"
+    ],
+    "zones_handled": [
+      "Zone 12"
+    ],
+    "office_contact": "044-25384012",
+    "email": "ee.zone12@chennaicorporation.gov.in"
+  },
+  {
+    "authority_id": "A013",
+    "department_name": "Greater Chennai Corporation - Zone 13",
+    "officer_name": "Er. Vivek Anand",
+    "designation": "Executive Engineer",
+    "road_types_handled": [
+      "Corporation"
+    ],
+    "zones_handled": [
+      "Zone 13"
+    ],
+    "office_contact": "044-25384013",
+    "email": "ee.zone13@chennaicorporation.gov.in"
+  },
+  {
+    "authority_id": "A014",
+    "department_name": "Greater Chennai Corporation - Zone 14",
+    "officer_name": "Er. Saranya M",
+    "designation": "Executive Engineer",
+    "road_types_handled": [
+      "Corporation"
+    ],
+    "zones_handled": [
+      "Zone 14"
+    ],
+    "office_contact": "044-25384014",
+    "email": "ee.zone14@chennaicorporation.gov.in"
+  },
+  {
+    "authority_id": "A015",
+    "department_name": "Greater Chennai Corporation - Zone 15",
+    "officer_name": "Er. Dinesh Raj",
+    "designation": "Executive Engineer",
+    "road_types_handled": [
+      "Corporation"
+    ],
+    "zones_handled": [
+      "Zone 15"
+    ],
+    "office_contact": "044-25384015",
+    "email": "ee.zone15@chennaicorporation.gov.in"
+  },
+  {
+    "authority_id": "A016",
+    "department_name": "Tamil Nadu Highways Department - Chennai Region 1",
+    "officer_name": "Er. S Prakash",
+    "designation": "Divisional Engineer",
+    "road_types_handled": [
+      "SH"
+    ],
+    "zones_handled": [
+      "Zone 1",
+      "Zone 2",
+      "Zone 3",
+      "Zone 4",
+      "Zone 5"
+    ],
+    "office_contact": "044-28520016",
+    "email": "de.chennai1@tnhighways.gov.in"
+  },
+  {
+    "authority_id": "A017",
+    "department_name": "Tamil Nadu Highways Department - Chennai Region 2",
+    "officer_name": "Er. N Malathi",
+    "designation": "Divisional Engineer",
+    "road_types_handled": [
+      "SH"
+    ],
+    "zones_handled": [
+      "Zone 6",
+      "Zone 7",
+      "Zone 8",
+      "Zone 9",
+      "Zone 10"
+    ],
+    "office_contact": "044-28520017",
+    "email": "de.chennai2@tnhighways.gov.in"
+  },
+  {
+    "authority_id": "A018",
+    "department_name": "Tamil Nadu Highways Department - Chennai Region 3",
+    "officer_name": "Er. R Karthikeyan",
+    "designation": "Divisional Engineer",
+    "road_types_handled": [
+      "SH"
+    ],
+    "zones_handled": [
+      "Zone 11",
+      "Zone 12",
+      "Zone 13",
+      "Zone 14",
+      "Zone 15"
+    ],
+    "office_contact": "044-28520018",
+    "email": "de.chennai3@tnhighways.gov.in"
+  },
+  {
+    "authority_id": "A019",
+    "department_name": "NHAI Chennai Project Implementation Unit",
+    "officer_name": "Er. A Mahadevan",
+    "designation": "Project Director",
+    "road_types_handled": [
+      "NH"
+    ],
+    "zones_handled": [
+      "Zone 1",
+      "Zone 2",
+      "Zone 3",
+      "Zone 4",
+      "Zone 5",
+      "Zone 6",
+      "Zone 7",
+      "Zone 8",
+      "Zone 9",
+      "Zone 10",
+      "Zone 11",
+      "Zone 12",
+      "Zone 13",
+      "Zone 14",
+      "Zone 15"
+    ],
+    "office_contact": "044-22252000",
+    "email": "pd.chennai@nhai.org"
+  },
+  {
+    "authority_id": "A020",
+    "department_name": "DRDA Chennai - Rural Roads Cell",
+    "officer_name": "Er. J Hemalatha",
+    "designation": "Assistant Project Officer",
+    "road_types_handled": [
+      "Panchayat"
+    ],
+    "zones_handled": [
+      "Zone 1",
+      "Zone 2",
+      "Zone 3",
+      "Zone 4",
+      "Zone 5",
+      "Zone 6",
+      "Zone 7",
+      "Zone 8",
+      "Zone 9",
+      "Zone 10",
+      "Zone 11",
+      "Zone 12",
+      "Zone 13",
+      "Zone 14",
+      "Zone 15"
+    ],
+    "office_contact": "044-25265000",
+    "email": "apo.roads@drdachennai.tn.gov.in"
+  }
+]

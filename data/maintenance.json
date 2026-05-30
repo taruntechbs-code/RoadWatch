@@ -1,0 +1,1352 @@
+[
+  {
+    "maintenance_id": "M001",
+    "road_id": "R001",
+    "last_relaying_date": "2022-01-20",
+    "activity_type": "Crack Sealing",
+    "cost": 318522,
+    "contractor_id": "C004",
+    "next_scheduled": "2024-01-20"
+  },
+  {
+    "maintenance_id": "M002",
+    "road_id": "R002",
+    "last_relaying_date": "2022-02-08",
+    "activity_type": "Crack Sealing",
+    "cost": 359508,
+    "contractor_id": "C007",
+    "next_scheduled": "2024-02-08"
+  },
+  {
+    "maintenance_id": "M003",
+    "road_id": "R003",
+    "last_relaying_date": "2022-02-27",
+    "activity_type": "Pothole Patching",
+    "cost": 953972,
+    "contractor_id": "C010",
+    "next_scheduled": "2024-02-27"
+  },
+  {
+    "maintenance_id": "M004",
+    "road_id": "R004",
+    "last_relaying_date": "2022-03-18",
+    "activity_type": "Resurfacing",
+    "cost": 945075,
+    "contractor_id": "C013",
+    "next_scheduled": "2024-03-18"
+  },
+  {
+    "maintenance_id": "M005",
+    "road_id": "R005",
+    "last_relaying_date": "2022-04-06",
+    "activity_type": "Pothole Patching",
+    "cost": 930881,
+    "contractor_id": "C016",
+    "next_scheduled": "2024-04-06"
+  },
+  {
+    "maintenance_id": "M006",
+    "road_id": "R006",
+    "last_relaying_date": "2022-04-25",
+    "activity_type": "Full Relaying",
+    "cost": 530647,
+    "contractor_id": "C019",
+    "next_scheduled": "2024-04-25"
+  },
+  {
+    "maintenance_id": "M007",
+    "road_id": "R007",
+    "last_relaying_date": "2026-02-28",
+    "activity_type": "Full Relaying",
+    "cost": 380000,
+    "contractor_id": "C003",
+    "next_scheduled": "2028-02-28"
+  },
+  {
+    "maintenance_id": "M008",
+    "road_id": "R008",
+    "last_relaying_date": "2022-06-02",
+    "activity_type": "Pothole Patching",
+    "cost": 845357,
+    "contractor_id": "C005",
+    "next_scheduled": "2024-06-02"
+  },
+  {
+    "maintenance_id": "M009",
+    "road_id": "R009",
+    "last_relaying_date": "2022-06-21",
+    "activity_type": "Full Relaying",
+    "cost": 827193,
+    "contractor_id": "C008",
+    "next_scheduled": "2024-06-21"
+  },
+  {
+    "maintenance_id": "M010",
+    "road_id": "R010",
+    "last_relaying_date": "2022-07-10",
+    "activity_type": "Full Relaying",
+    "cost": 653565,
+    "contractor_id": "C011",
+    "next_scheduled": "2024-07-10"
+  },
+  {
+    "maintenance_id": "M011",
+    "road_id": "R011",
+    "last_relaying_date": "2022-07-29",
+    "activity_type": "Resurfacing",
+    "cost": 1028611,
+    "contractor_id": "C014",
+    "next_scheduled": "2024-07-29"
+  },
+  {
+    "maintenance_id": "M012",
+    "road_id": "R012",
+    "last_relaying_date": "2022-08-17",
+    "activity_type": "Resurfacing",
+    "cost": 519818,
+    "contractor_id": "C017",
+    "next_scheduled": "2024-08-17"
+  },
+  {
+    "maintenance_id": "M013",
+    "road_id": "R013",
+    "last_relaying_date": "2022-09-05",
+    "activity_type": "Crack Sealing",
+    "cost": 119789,
+    "contractor_id": "C020",
+    "next_scheduled": "2024-09-05"
+  },
+  {
+    "maintenance_id": "M014",
+    "road_id": "R014",
+    "last_relaying_date": "2022-09-24",
+    "activity_type": "Crack Sealing",
+    "cost": 339081,
+    "contractor_id": "C003",
+    "next_scheduled": "2024-09-24"
+  },
+  {
+    "maintenance_id": "M015",
+    "road_id": "R015",
+    "last_relaying_date": "2022-10-13",
+    "activity_type": "Crack Sealing",
+    "cost": 509440,
+    "contractor_id": "C006",
+    "next_scheduled": "2024-10-13"
+  },
+  {
+    "maintenance_id": "M016",
+    "road_id": "R016",
+    "last_relaying_date": "2022-11-01",
+    "activity_type": "Crack Sealing",
+    "cost": 563633,
+    "contractor_id": "C009",
+    "next_scheduled": "2024-11-01"
+  },
+  {
+    "maintenance_id": "M017",
+    "road_id": "R017",
+    "last_relaying_date": "2022-11-20",
+    "activity_type": "Resurfacing",
+    "cost": 80946,
+    "contractor_id": "C012",
+    "next_scheduled": "2024-11-20"
+  },
+  {
+    "maintenance_id": "M018",
+    "road_id": "R018",
+    "last_relaying_date": "2022-12-09",
+    "activity_type": "Pothole Patching",
+    "cost": 347613,
+    "contractor_id": "C015",
+    "next_scheduled": "2024-12-09"
+  },
+  {
+    "maintenance_id": "M019",
+    "road_id": "R019",
+    "last_relaying_date": "2022-12-28",
+    "activity_type": "Full Relaying",
+    "cost": 305532,
+    "contractor_id": "C018",
+    "next_scheduled": "2024-12-28"
+  },
+  {
+    "maintenance_id": "M020",
+    "road_id": "R020",
+    "last_relaying_date": "2023-01-16",
+    "activity_type": "Pothole Patching",
+    "cost": 351411,
+    "contractor_id": "C001",
+    "next_scheduled": "2025-01-16"
+  },
+  {
+    "maintenance_id": "M021",
+    "road_id": "R021",
+    "last_relaying_date": "2023-02-04",
+    "activity_type": "Resurfacing",
+    "cost": 573978,
+    "contractor_id": "C004",
+    "next_scheduled": "2025-02-04"
+  },
+  {
+    "maintenance_id": "M022",
+    "road_id": "R022",
+    "last_relaying_date": "2023-02-23",
+    "activity_type": "Pothole Patching",
+    "cost": 108095,
+    "contractor_id": "C007",
+    "next_scheduled": "2025-02-23"
+  },
+  {
+    "maintenance_id": "M023",
+    "road_id": "R023",
+    "last_relaying_date": "2023-03-14",
+    "activity_type": "Full Relaying",
+    "cost": 184888,
+    "contractor_id": "C010",
+    "next_scheduled": "2025-03-14"
+  },
+  {
+    "maintenance_id": "M024",
+    "road_id": "R024",
+    "last_relaying_date": "2023-04-02",
+    "activity_type": "Resurfacing",
+    "cost": 208290,
+    "contractor_id": "C013",
+    "next_scheduled": "2025-04-02"
+  },
+  {
+    "maintenance_id": "M025",
+    "road_id": "R025",
+    "last_relaying_date": "2023-04-21",
+    "activity_type": "Pothole Patching",
+    "cost": 1151338,
+    "contractor_id": "C016",
+    "next_scheduled": "2025-04-21"
+  },
+  {
+    "maintenance_id": "M026",
+    "road_id": "R026",
+    "last_relaying_date": "2023-05-10",
+    "activity_type": "Resurfacing",
+    "cost": 539623,
+    "contractor_id": "C019",
+    "next_scheduled": "2025-05-10"
+  },
+  {
+    "maintenance_id": "M027",
+    "road_id": "R027",
+    "last_relaying_date": "2023-05-29",
+    "activity_type": "Resurfacing",
+    "cost": 1168562,
+    "contractor_id": "C002",
+    "next_scheduled": "2025-05-29"
+  },
+  {
+    "maintenance_id": "M028",
+    "road_id": "R028",
+    "last_relaying_date": "2023-06-17",
+    "activity_type": "Full Relaying",
+    "cost": 140327,
+    "contractor_id": "C005",
+    "next_scheduled": "2025-06-17"
+  },
+  {
+    "maintenance_id": "M029",
+    "road_id": "R029",
+    "last_relaying_date": "2023-07-06",
+    "activity_type": "Resurfacing",
+    "cost": 968960,
+    "contractor_id": "C008",
+    "next_scheduled": "2025-07-06"
+  },
+  {
+    "maintenance_id": "M030",
+    "road_id": "R030",
+    "last_relaying_date": "2023-07-25",
+    "activity_type": "Crack Sealing",
+    "cost": 1005217,
+    "contractor_id": "C011",
+    "next_scheduled": "2025-07-25"
+  },
+  {
+    "maintenance_id": "M031",
+    "road_id": "R031",
+    "last_relaying_date": "2023-08-13",
+    "activity_type": "Crack Sealing",
+    "cost": 750517,
+    "contractor_id": "C014",
+    "next_scheduled": "2025-08-13"
+  },
+  {
+    "maintenance_id": "M032",
+    "road_id": "R032",
+    "last_relaying_date": "2023-09-01",
+    "activity_type": "Crack Sealing",
+    "cost": 651750,
+    "contractor_id": "C017",
+    "next_scheduled": "2025-09-01"
+  },
+  {
+    "maintenance_id": "M033",
+    "road_id": "R033",
+    "last_relaying_date": "2023-09-20",
+    "activity_type": "Pothole Patching",
+    "cost": 1187658,
+    "contractor_id": "C020",
+    "next_scheduled": "2025-09-20"
+  },
+  {
+    "maintenance_id": "M034",
+    "road_id": "R034",
+    "last_relaying_date": "2023-10-09",
+    "activity_type": "Pothole Patching",
+    "cost": 1135217,
+    "contractor_id": "C003",
+    "next_scheduled": "2025-10-09"
+  },
+  {
+    "maintenance_id": "M035",
+    "road_id": "R035",
+    "last_relaying_date": "2023-10-28",
+    "activity_type": "Full Relaying",
+    "cost": 314943,
+    "contractor_id": "C006",
+    "next_scheduled": "2025-10-28"
+  },
+  {
+    "maintenance_id": "M036",
+    "road_id": "R036",
+    "last_relaying_date": "2023-11-16",
+    "activity_type": "Resurfacing",
+    "cost": 554185,
+    "contractor_id": "C009",
+    "next_scheduled": "2025-11-16"
+  },
+  {
+    "maintenance_id": "M037",
+    "road_id": "R037",
+    "last_relaying_date": "2023-12-05",
+    "activity_type": "Crack Sealing",
+    "cost": 911197,
+    "contractor_id": "C012",
+    "next_scheduled": "2025-12-05"
+  },
+  {
+    "maintenance_id": "M038",
+    "road_id": "R038",
+    "last_relaying_date": "2023-12-24",
+    "activity_type": "Full Relaying",
+    "cost": 730409,
+    "contractor_id": "C015",
+    "next_scheduled": "2025-12-24"
+  },
+  {
+    "maintenance_id": "M039",
+    "road_id": "R039",
+    "last_relaying_date": "2024-01-12",
+    "activity_type": "Crack Sealing",
+    "cost": 395107,
+    "contractor_id": "C018",
+    "next_scheduled": "2026-01-12"
+  },
+  {
+    "maintenance_id": "M040",
+    "road_id": "R040",
+    "last_relaying_date": "2024-01-31",
+    "activity_type": "Full Relaying",
+    "cost": 266312,
+    "contractor_id": "C001",
+    "next_scheduled": "2026-01-31"
+  },
+  {
+    "maintenance_id": "M041",
+    "road_id": "R041",
+    "last_relaying_date": "2024-02-19",
+    "activity_type": "Pothole Patching",
+    "cost": 856497,
+    "contractor_id": "C004",
+    "next_scheduled": "2026-02-19"
+  },
+  {
+    "maintenance_id": "M042",
+    "road_id": "R042",
+    "last_relaying_date": "2024-03-09",
+    "activity_type": "Resurfacing",
+    "cost": 766317,
+    "contractor_id": "C007",
+    "next_scheduled": "2026-03-09"
+  },
+  {
+    "maintenance_id": "M043",
+    "road_id": "R043",
+    "last_relaying_date": "2024-03-28",
+    "activity_type": "Full Relaying",
+    "cost": 961962,
+    "contractor_id": "C010",
+    "next_scheduled": "2026-03-28"
+  },
+  {
+    "maintenance_id": "M044",
+    "road_id": "R044",
+    "last_relaying_date": "2024-04-16",
+    "activity_type": "Pothole Patching",
+    "cost": 812455,
+    "contractor_id": "C013",
+    "next_scheduled": "2026-04-16"
+  },
+  {
+    "maintenance_id": "M045",
+    "road_id": "R045",
+    "last_relaying_date": "2024-05-05",
+    "activity_type": "Pothole Patching",
+    "cost": 1086224,
+    "contractor_id": "C016",
+    "next_scheduled": "2026-05-05"
+  },
+  {
+    "maintenance_id": "M046",
+    "road_id": "R046",
+    "last_relaying_date": "2024-05-24",
+    "activity_type": "Crack Sealing",
+    "cost": 845831,
+    "contractor_id": "C019",
+    "next_scheduled": "2026-05-24"
+  },
+  {
+    "maintenance_id": "M047",
+    "road_id": "R047",
+    "last_relaying_date": "2024-06-12",
+    "activity_type": "Resurfacing",
+    "cost": 549289,
+    "contractor_id": "C002",
+    "next_scheduled": "2026-06-12"
+  },
+  {
+    "maintenance_id": "M048",
+    "road_id": "R048",
+    "last_relaying_date": "2024-07-01",
+    "activity_type": "Pothole Patching",
+    "cost": 130058,
+    "contractor_id": "C005",
+    "next_scheduled": "2026-07-01"
+  },
+  {
+    "maintenance_id": "M049",
+    "road_id": "R049",
+    "last_relaying_date": "2024-07-20",
+    "activity_type": "Full Relaying",
+    "cost": 453359,
+    "contractor_id": "C008",
+    "next_scheduled": "2026-07-20"
+  },
+  {
+    "maintenance_id": "M050",
+    "road_id": "R050",
+    "last_relaying_date": "2024-08-08",
+    "activity_type": "Crack Sealing",
+    "cost": 787663,
+    "contractor_id": "C011",
+    "next_scheduled": "2026-08-08"
+  },
+  {
+    "maintenance_id": "M051",
+    "road_id": "R051",
+    "last_relaying_date": "2024-08-27",
+    "activity_type": "Full Relaying",
+    "cost": 375420,
+    "contractor_id": "C014",
+    "next_scheduled": "2026-08-27"
+  },
+  {
+    "maintenance_id": "M052",
+    "road_id": "R052",
+    "last_relaying_date": "2024-09-15",
+    "activity_type": "Full Relaying",
+    "cost": 139292,
+    "contractor_id": "C017",
+    "next_scheduled": "2026-09-15"
+  },
+  {
+    "maintenance_id": "M053",
+    "road_id": "R053",
+    "last_relaying_date": "2024-10-04",
+    "activity_type": "Crack Sealing",
+    "cost": 526166,
+    "contractor_id": "C020",
+    "next_scheduled": "2026-10-04"
+  },
+  {
+    "maintenance_id": "M054",
+    "road_id": "R054",
+    "last_relaying_date": "2024-10-23",
+    "activity_type": "Crack Sealing",
+    "cost": 1026364,
+    "contractor_id": "C003",
+    "next_scheduled": "2026-10-23"
+  },
+  {
+    "maintenance_id": "M055",
+    "road_id": "R055",
+    "last_relaying_date": "2024-11-11",
+    "activity_type": "Crack Sealing",
+    "cost": 851057,
+    "contractor_id": "C006",
+    "next_scheduled": "2026-11-11"
+  },
+  {
+    "maintenance_id": "M056",
+    "road_id": "R056",
+    "last_relaying_date": "2024-11-30",
+    "activity_type": "Full Relaying",
+    "cost": 253167,
+    "contractor_id": "C009",
+    "next_scheduled": "2026-11-30"
+  },
+  {
+    "maintenance_id": "M057",
+    "road_id": "R057",
+    "last_relaying_date": "2024-12-19",
+    "activity_type": "Crack Sealing",
+    "cost": 179359,
+    "contractor_id": "C012",
+    "next_scheduled": "2026-12-19"
+  },
+  {
+    "maintenance_id": "M058",
+    "road_id": "R058",
+    "last_relaying_date": "2025-01-07",
+    "activity_type": "Full Relaying",
+    "cost": 964223,
+    "contractor_id": "C015",
+    "next_scheduled": "2027-01-07"
+  },
+  {
+    "maintenance_id": "M059",
+    "road_id": "R059",
+    "last_relaying_date": "2025-01-26",
+    "activity_type": "Pothole Patching",
+    "cost": 1002033,
+    "contractor_id": "C018",
+    "next_scheduled": "2027-01-26"
+  },
+  {
+    "maintenance_id": "M060",
+    "road_id": "R060",
+    "last_relaying_date": "2025-02-14",
+    "activity_type": "Full Relaying",
+    "cost": 1149468,
+    "contractor_id": "C001",
+    "next_scheduled": "2027-02-14"
+  },
+  {
+    "maintenance_id": "M061",
+    "road_id": "R061",
+    "last_relaying_date": "2025-03-05",
+    "activity_type": "Pothole Patching",
+    "cost": 669010,
+    "contractor_id": "C004",
+    "next_scheduled": "2027-03-05"
+  },
+  {
+    "maintenance_id": "M062",
+    "road_id": "R062",
+    "last_relaying_date": "2025-03-24",
+    "activity_type": "Resurfacing",
+    "cost": 170247,
+    "contractor_id": "C007",
+    "next_scheduled": "2027-03-24"
+  },
+  {
+    "maintenance_id": "M063",
+    "road_id": "R063",
+    "last_relaying_date": "2025-04-12",
+    "activity_type": "Resurfacing",
+    "cost": 189886,
+    "contractor_id": "C010",
+    "next_scheduled": "2027-04-12"
+  },
+  {
+    "maintenance_id": "M064",
+    "road_id": "R064",
+    "last_relaying_date": "2025-05-01",
+    "activity_type": "Resurfacing",
+    "cost": 707122,
+    "contractor_id": "C013",
+    "next_scheduled": "2027-05-01"
+  },
+  {
+    "maintenance_id": "M065",
+    "road_id": "R065",
+    "last_relaying_date": "2025-05-20",
+    "activity_type": "Full Relaying",
+    "cost": 682014,
+    "contractor_id": "C016",
+    "next_scheduled": "2027-05-20"
+  },
+  {
+    "maintenance_id": "M066",
+    "road_id": "R066",
+    "last_relaying_date": "2025-06-08",
+    "activity_type": "Crack Sealing",
+    "cost": 978149,
+    "contractor_id": "C019",
+    "next_scheduled": "2027-06-08"
+  },
+  {
+    "maintenance_id": "M067",
+    "road_id": "R067",
+    "last_relaying_date": "2025-06-27",
+    "activity_type": "Full Relaying",
+    "cost": 557577,
+    "contractor_id": "C002",
+    "next_scheduled": "2027-06-27"
+  },
+  {
+    "maintenance_id": "M068",
+    "road_id": "R068",
+    "last_relaying_date": "2025-07-16",
+    "activity_type": "Full Relaying",
+    "cost": 817742,
+    "contractor_id": "C005",
+    "next_scheduled": "2027-07-16"
+  },
+  {
+    "maintenance_id": "M069",
+    "road_id": "R069",
+    "last_relaying_date": "2022-01-12",
+    "activity_type": "Full Relaying",
+    "cost": 163714,
+    "contractor_id": "C008",
+    "next_scheduled": "2024-01-12"
+  },
+  {
+    "maintenance_id": "M070",
+    "road_id": "R070",
+    "last_relaying_date": "2022-01-31",
+    "activity_type": "Crack Sealing",
+    "cost": 1039174,
+    "contractor_id": "C011",
+    "next_scheduled": "2024-01-31"
+  },
+  {
+    "maintenance_id": "M071",
+    "road_id": "R071",
+    "last_relaying_date": "2022-02-19",
+    "activity_type": "Full Relaying",
+    "cost": 975274,
+    "contractor_id": "C014",
+    "next_scheduled": "2024-02-19"
+  },
+  {
+    "maintenance_id": "M072",
+    "road_id": "R072",
+    "last_relaying_date": "2022-03-10",
+    "activity_type": "Crack Sealing",
+    "cost": 950967,
+    "contractor_id": "C017",
+    "next_scheduled": "2024-03-10"
+  },
+  {
+    "maintenance_id": "M073",
+    "road_id": "R073",
+    "last_relaying_date": "2022-03-29",
+    "activity_type": "Resurfacing",
+    "cost": 756088,
+    "contractor_id": "C020",
+    "next_scheduled": "2024-03-29"
+  },
+  {
+    "maintenance_id": "M074",
+    "road_id": "R074",
+    "last_relaying_date": "2022-04-17",
+    "activity_type": "Resurfacing",
+    "cost": 1039893,
+    "contractor_id": "C003",
+    "next_scheduled": "2024-04-17"
+  },
+  {
+    "maintenance_id": "M075",
+    "road_id": "R075",
+    "last_relaying_date": "2022-05-06",
+    "activity_type": "Crack Sealing",
+    "cost": 297011,
+    "contractor_id": "C006",
+    "next_scheduled": "2024-05-06"
+  },
+  {
+    "maintenance_id": "M076",
+    "road_id": "R076",
+    "last_relaying_date": "2022-05-25",
+    "activity_type": "Full Relaying",
+    "cost": 914804,
+    "contractor_id": "C009",
+    "next_scheduled": "2024-05-25"
+  },
+  {
+    "maintenance_id": "M077",
+    "road_id": "R077",
+    "last_relaying_date": "2022-06-13",
+    "activity_type": "Crack Sealing",
+    "cost": 904982,
+    "contractor_id": "C012",
+    "next_scheduled": "2024-06-13"
+  },
+  {
+    "maintenance_id": "M078",
+    "road_id": "R078",
+    "last_relaying_date": "2022-07-02",
+    "activity_type": "Full Relaying",
+    "cost": 539670,
+    "contractor_id": "C015",
+    "next_scheduled": "2024-07-02"
+  },
+  {
+    "maintenance_id": "M079",
+    "road_id": "R079",
+    "last_relaying_date": "2022-07-21",
+    "activity_type": "Resurfacing",
+    "cost": 235179,
+    "contractor_id": "C018",
+    "next_scheduled": "2024-07-21"
+  },
+  {
+    "maintenance_id": "M080",
+    "road_id": "R080",
+    "last_relaying_date": "2022-08-09",
+    "activity_type": "Resurfacing",
+    "cost": 314131,
+    "contractor_id": "C001",
+    "next_scheduled": "2024-08-09"
+  },
+  {
+    "maintenance_id": "M081",
+    "road_id": "R081",
+    "last_relaying_date": "2022-08-28",
+    "activity_type": "Full Relaying",
+    "cost": 807693,
+    "contractor_id": "C004",
+    "next_scheduled": "2024-08-28"
+  },
+  {
+    "maintenance_id": "M082",
+    "road_id": "R082",
+    "last_relaying_date": "2022-09-16",
+    "activity_type": "Resurfacing",
+    "cost": 382115,
+    "contractor_id": "C007",
+    "next_scheduled": "2024-09-16"
+  },
+  {
+    "maintenance_id": "M083",
+    "road_id": "R083",
+    "last_relaying_date": "2022-10-05",
+    "activity_type": "Crack Sealing",
+    "cost": 395591,
+    "contractor_id": "C010",
+    "next_scheduled": "2024-10-05"
+  },
+  {
+    "maintenance_id": "M084",
+    "road_id": "R084",
+    "last_relaying_date": "2022-10-24",
+    "activity_type": "Full Relaying",
+    "cost": 1111238,
+    "contractor_id": "C013",
+    "next_scheduled": "2024-10-24"
+  },
+  {
+    "maintenance_id": "M085",
+    "road_id": "R085",
+    "last_relaying_date": "2022-11-12",
+    "activity_type": "Resurfacing",
+    "cost": 752816,
+    "contractor_id": "C016",
+    "next_scheduled": "2024-11-12"
+  },
+  {
+    "maintenance_id": "M086",
+    "road_id": "R086",
+    "last_relaying_date": "2022-12-01",
+    "activity_type": "Resurfacing",
+    "cost": 997249,
+    "contractor_id": "C019",
+    "next_scheduled": "2024-12-01"
+  },
+  {
+    "maintenance_id": "M087",
+    "road_id": "R087",
+    "last_relaying_date": "2022-12-20",
+    "activity_type": "Full Relaying",
+    "cost": 710060,
+    "contractor_id": "C002",
+    "next_scheduled": "2024-12-20"
+  },
+  {
+    "maintenance_id": "M088",
+    "road_id": "R088",
+    "last_relaying_date": "2023-01-08",
+    "activity_type": "Full Relaying",
+    "cost": 1138962,
+    "contractor_id": "C005",
+    "next_scheduled": "2025-01-08"
+  },
+  {
+    "maintenance_id": "M089",
+    "road_id": "R089",
+    "last_relaying_date": "2023-01-27",
+    "activity_type": "Pothole Patching",
+    "cost": 153868,
+    "contractor_id": "C008",
+    "next_scheduled": "2025-01-27"
+  },
+  {
+    "maintenance_id": "M090",
+    "road_id": "R090",
+    "last_relaying_date": "2023-02-15",
+    "activity_type": "Resurfacing",
+    "cost": 235916,
+    "contractor_id": "C011",
+    "next_scheduled": "2025-02-15"
+  },
+  {
+    "maintenance_id": "M091",
+    "road_id": "R091",
+    "last_relaying_date": "2023-03-06",
+    "activity_type": "Crack Sealing",
+    "cost": 1138398,
+    "contractor_id": "C014",
+    "next_scheduled": "2025-03-06"
+  },
+  {
+    "maintenance_id": "M092",
+    "road_id": "R092",
+    "last_relaying_date": "2023-03-25",
+    "activity_type": "Crack Sealing",
+    "cost": 161030,
+    "contractor_id": "C017",
+    "next_scheduled": "2025-03-25"
+  },
+  {
+    "maintenance_id": "M093",
+    "road_id": "R093",
+    "last_relaying_date": "2023-04-13",
+    "activity_type": "Crack Sealing",
+    "cost": 1072466,
+    "contractor_id": "C020",
+    "next_scheduled": "2025-04-13"
+  },
+  {
+    "maintenance_id": "M094",
+    "road_id": "R094",
+    "last_relaying_date": "2023-05-02",
+    "activity_type": "Pothole Patching",
+    "cost": 1019815,
+    "contractor_id": "C003",
+    "next_scheduled": "2025-05-02"
+  },
+  {
+    "maintenance_id": "M095",
+    "road_id": "R095",
+    "last_relaying_date": "2023-05-21",
+    "activity_type": "Pothole Patching",
+    "cost": 251851,
+    "contractor_id": "C006",
+    "next_scheduled": "2025-05-21"
+  },
+  {
+    "maintenance_id": "M096",
+    "road_id": "R096",
+    "last_relaying_date": "2023-06-09",
+    "activity_type": "Crack Sealing",
+    "cost": 993045,
+    "contractor_id": "C009",
+    "next_scheduled": "2025-06-09"
+  },
+  {
+    "maintenance_id": "M097",
+    "road_id": "R097",
+    "last_relaying_date": "2023-06-28",
+    "activity_type": "Pothole Patching",
+    "cost": 1171282,
+    "contractor_id": "C012",
+    "next_scheduled": "2025-06-28"
+  },
+  {
+    "maintenance_id": "M098",
+    "road_id": "R098",
+    "last_relaying_date": "2023-07-17",
+    "activity_type": "Pothole Patching",
+    "cost": 856927,
+    "contractor_id": "C015",
+    "next_scheduled": "2025-07-17"
+  },
+  {
+    "maintenance_id": "M099",
+    "road_id": "R099",
+    "last_relaying_date": "2023-08-05",
+    "activity_type": "Crack Sealing",
+    "cost": 932251,
+    "contractor_id": "C018",
+    "next_scheduled": "2025-08-05"
+  },
+  {
+    "maintenance_id": "M100",
+    "road_id": "R100",
+    "last_relaying_date": "2023-08-24",
+    "activity_type": "Crack Sealing",
+    "cost": 184818,
+    "contractor_id": "C001",
+    "next_scheduled": "2025-08-24"
+  },
+  {
+    "maintenance_id": "M101",
+    "road_id": "R101",
+    "last_relaying_date": "2023-09-12",
+    "activity_type": "Resurfacing",
+    "cost": 766411,
+    "contractor_id": "C004",
+    "next_scheduled": "2025-09-12"
+  },
+  {
+    "maintenance_id": "M102",
+    "road_id": "R102",
+    "last_relaying_date": "2023-10-01",
+    "activity_type": "Full Relaying",
+    "cost": 390355,
+    "contractor_id": "C007",
+    "next_scheduled": "2025-10-01"
+  },
+  {
+    "maintenance_id": "M103",
+    "road_id": "R103",
+    "last_relaying_date": "2023-10-20",
+    "activity_type": "Resurfacing",
+    "cost": 371596,
+    "contractor_id": "C010",
+    "next_scheduled": "2025-10-20"
+  },
+  {
+    "maintenance_id": "M104",
+    "road_id": "R104",
+    "last_relaying_date": "2023-11-08",
+    "activity_type": "Pothole Patching",
+    "cost": 896995,
+    "contractor_id": "C013",
+    "next_scheduled": "2025-11-08"
+  },
+  {
+    "maintenance_id": "M105",
+    "road_id": "R105",
+    "last_relaying_date": "2023-11-27",
+    "activity_type": "Pothole Patching",
+    "cost": 252668,
+    "contractor_id": "C016",
+    "next_scheduled": "2025-11-27"
+  },
+  {
+    "maintenance_id": "M106",
+    "road_id": "R106",
+    "last_relaying_date": "2023-12-16",
+    "activity_type": "Resurfacing",
+    "cost": 864953,
+    "contractor_id": "C019",
+    "next_scheduled": "2025-12-16"
+  },
+  {
+    "maintenance_id": "M107",
+    "road_id": "R107",
+    "last_relaying_date": "2024-01-04",
+    "activity_type": "Crack Sealing",
+    "cost": 1178926,
+    "contractor_id": "C002",
+    "next_scheduled": "2026-01-04"
+  },
+  {
+    "maintenance_id": "M108",
+    "road_id": "R108",
+    "last_relaying_date": "2024-01-23",
+    "activity_type": "Crack Sealing",
+    "cost": 962947,
+    "contractor_id": "C005",
+    "next_scheduled": "2026-01-23"
+  },
+  {
+    "maintenance_id": "M109",
+    "road_id": "R109",
+    "last_relaying_date": "2024-02-11",
+    "activity_type": "Crack Sealing",
+    "cost": 113232,
+    "contractor_id": "C008",
+    "next_scheduled": "2026-02-11"
+  },
+  {
+    "maintenance_id": "M110",
+    "road_id": "R110",
+    "last_relaying_date": "2024-03-01",
+    "activity_type": "Pothole Patching",
+    "cost": 524194,
+    "contractor_id": "C011",
+    "next_scheduled": "2026-03-01"
+  },
+  {
+    "maintenance_id": "M111",
+    "road_id": "R111",
+    "last_relaying_date": "2024-03-20",
+    "activity_type": "Full Relaying",
+    "cost": 477664,
+    "contractor_id": "C014",
+    "next_scheduled": "2026-03-20"
+  },
+  {
+    "maintenance_id": "M112",
+    "road_id": "R112",
+    "last_relaying_date": "2024-04-08",
+    "activity_type": "Pothole Patching",
+    "cost": 399943,
+    "contractor_id": "C017",
+    "next_scheduled": "2026-04-08"
+  },
+  {
+    "maintenance_id": "M113",
+    "road_id": "R113",
+    "last_relaying_date": "2024-04-27",
+    "activity_type": "Pothole Patching",
+    "cost": 287107,
+    "contractor_id": "C020",
+    "next_scheduled": "2026-04-27"
+  },
+  {
+    "maintenance_id": "M114",
+    "road_id": "R114",
+    "last_relaying_date": "2024-05-16",
+    "activity_type": "Crack Sealing",
+    "cost": 1179216,
+    "contractor_id": "C003",
+    "next_scheduled": "2026-05-16"
+  },
+  {
+    "maintenance_id": "M115",
+    "road_id": "R115",
+    "last_relaying_date": "2024-06-04",
+    "activity_type": "Pothole Patching",
+    "cost": 349829,
+    "contractor_id": "C006",
+    "next_scheduled": "2026-06-04"
+  },
+  {
+    "maintenance_id": "M116",
+    "road_id": "R116",
+    "last_relaying_date": "2024-06-23",
+    "activity_type": "Pothole Patching",
+    "cost": 422160,
+    "contractor_id": "C009",
+    "next_scheduled": "2026-06-23"
+  },
+  {
+    "maintenance_id": "M117",
+    "road_id": "R117",
+    "last_relaying_date": "2024-07-12",
+    "activity_type": "Full Relaying",
+    "cost": 936632,
+    "contractor_id": "C012",
+    "next_scheduled": "2026-07-12"
+  },
+  {
+    "maintenance_id": "M118",
+    "road_id": "R118",
+    "last_relaying_date": "2024-07-31",
+    "activity_type": "Resurfacing",
+    "cost": 672537,
+    "contractor_id": "C015",
+    "next_scheduled": "2026-07-31"
+  },
+  {
+    "maintenance_id": "M119",
+    "road_id": "R119",
+    "last_relaying_date": "2024-08-19",
+    "activity_type": "Resurfacing",
+    "cost": 724001,
+    "contractor_id": "C018",
+    "next_scheduled": "2026-08-19"
+  },
+  {
+    "maintenance_id": "M120",
+    "road_id": "R120",
+    "last_relaying_date": "2024-09-07",
+    "activity_type": "Full Relaying",
+    "cost": 846418,
+    "contractor_id": "C001",
+    "next_scheduled": "2026-09-07"
+  },
+  {
+    "maintenance_id": "M121",
+    "road_id": "R121",
+    "last_relaying_date": "2024-09-26",
+    "activity_type": "Pothole Patching",
+    "cost": 875844,
+    "contractor_id": "C004",
+    "next_scheduled": "2026-09-26"
+  },
+  {
+    "maintenance_id": "M122",
+    "road_id": "R122",
+    "last_relaying_date": "2024-10-15",
+    "activity_type": "Pothole Patching",
+    "cost": 414860,
+    "contractor_id": "C007",
+    "next_scheduled": "2026-10-15"
+  },
+  {
+    "maintenance_id": "M123",
+    "road_id": "R123",
+    "last_relaying_date": "2024-11-03",
+    "activity_type": "Full Relaying",
+    "cost": 599294,
+    "contractor_id": "C010",
+    "next_scheduled": "2026-11-03"
+  },
+  {
+    "maintenance_id": "M124",
+    "road_id": "R124",
+    "last_relaying_date": "2024-11-22",
+    "activity_type": "Crack Sealing",
+    "cost": 853488,
+    "contractor_id": "C013",
+    "next_scheduled": "2026-11-22"
+  },
+  {
+    "maintenance_id": "M125",
+    "road_id": "R125",
+    "last_relaying_date": "2024-12-11",
+    "activity_type": "Pothole Patching",
+    "cost": 336468,
+    "contractor_id": "C016",
+    "next_scheduled": "2026-12-11"
+  },
+  {
+    "maintenance_id": "M126",
+    "road_id": "R126",
+    "last_relaying_date": "2024-12-30",
+    "activity_type": "Resurfacing",
+    "cost": 647084,
+    "contractor_id": "C019",
+    "next_scheduled": "2026-12-30"
+  },
+  {
+    "maintenance_id": "M127",
+    "road_id": "R127",
+    "last_relaying_date": "2025-01-18",
+    "activity_type": "Resurfacing",
+    "cost": 992446,
+    "contractor_id": "C002",
+    "next_scheduled": "2027-01-18"
+  },
+  {
+    "maintenance_id": "M128",
+    "road_id": "R128",
+    "last_relaying_date": "2025-02-06",
+    "activity_type": "Crack Sealing",
+    "cost": 1021083,
+    "contractor_id": "C005",
+    "next_scheduled": "2027-02-06"
+  },
+  {
+    "maintenance_id": "M129",
+    "road_id": "R129",
+    "last_relaying_date": "2025-02-25",
+    "activity_type": "Crack Sealing",
+    "cost": 186687,
+    "contractor_id": "C008",
+    "next_scheduled": "2027-02-25"
+  },
+  {
+    "maintenance_id": "M130",
+    "road_id": "R130",
+    "last_relaying_date": "2025-03-16",
+    "activity_type": "Full Relaying",
+    "cost": 859254,
+    "contractor_id": "C011",
+    "next_scheduled": "2027-03-16"
+  },
+  {
+    "maintenance_id": "M131",
+    "road_id": "R131",
+    "last_relaying_date": "2025-04-04",
+    "activity_type": "Crack Sealing",
+    "cost": 861248,
+    "contractor_id": "C014",
+    "next_scheduled": "2027-04-04"
+  },
+  {
+    "maintenance_id": "M132",
+    "road_id": "R132",
+    "last_relaying_date": "2025-04-23",
+    "activity_type": "Resurfacing",
+    "cost": 282792,
+    "contractor_id": "C017",
+    "next_scheduled": "2027-04-23"
+  },
+  {
+    "maintenance_id": "M133",
+    "road_id": "R133",
+    "last_relaying_date": "2025-05-12",
+    "activity_type": "Crack Sealing",
+    "cost": 676629,
+    "contractor_id": "C020",
+    "next_scheduled": "2027-05-12"
+  },
+  {
+    "maintenance_id": "M134",
+    "road_id": "R134",
+    "last_relaying_date": "2025-05-31",
+    "activity_type": "Pothole Patching",
+    "cost": 366069,
+    "contractor_id": "C003",
+    "next_scheduled": "2027-05-31"
+  },
+  {
+    "maintenance_id": "M135",
+    "road_id": "R135",
+    "last_relaying_date": "2025-06-19",
+    "activity_type": "Pothole Patching",
+    "cost": 241148,
+    "contractor_id": "C006",
+    "next_scheduled": "2027-06-19"
+  },
+  {
+    "maintenance_id": "M136",
+    "road_id": "R136",
+    "last_relaying_date": "2025-07-08",
+    "activity_type": "Crack Sealing",
+    "cost": 388565,
+    "contractor_id": "C009",
+    "next_scheduled": "2027-07-08"
+  },
+  {
+    "maintenance_id": "M137",
+    "road_id": "R137",
+    "last_relaying_date": "2022-01-04",
+    "activity_type": "Crack Sealing",
+    "cost": 1181817,
+    "contractor_id": "C012",
+    "next_scheduled": "2024-01-04"
+  },
+  {
+    "maintenance_id": "M138",
+    "road_id": "R138",
+    "last_relaying_date": "2022-01-23",
+    "activity_type": "Crack Sealing",
+    "cost": 679192,
+    "contractor_id": "C015",
+    "next_scheduled": "2024-01-23"
+  },
+  {
+    "maintenance_id": "M139",
+    "road_id": "R139",
+    "last_relaying_date": "2022-02-11",
+    "activity_type": "Pothole Patching",
+    "cost": 575043,
+    "contractor_id": "C018",
+    "next_scheduled": "2024-02-11"
+  },
+  {
+    "maintenance_id": "M140",
+    "road_id": "R140",
+    "last_relaying_date": "2022-03-02",
+    "activity_type": "Pothole Patching",
+    "cost": 1123217,
+    "contractor_id": "C001",
+    "next_scheduled": "2024-03-02"
+  },
+  {
+    "maintenance_id": "M141",
+    "road_id": "R141",
+    "last_relaying_date": "2022-03-21",
+    "activity_type": "Full Relaying",
+    "cost": 109467,
+    "contractor_id": "C004",
+    "next_scheduled": "2024-03-21"
+  },
+  {
+    "maintenance_id": "M142",
+    "road_id": "R142",
+    "last_relaying_date": "2022-04-09",
+    "activity_type": "Full Relaying",
+    "cost": 376102,
+    "contractor_id": "C007",
+    "next_scheduled": "2024-04-09"
+  },
+  {
+    "maintenance_id": "M143",
+    "road_id": "R143",
+    "last_relaying_date": "2022-04-28",
+    "activity_type": "Full Relaying",
+    "cost": 814908,
+    "contractor_id": "C010",
+    "next_scheduled": "2024-04-28"
+  },
+  {
+    "maintenance_id": "M144",
+    "road_id": "R144",
+    "last_relaying_date": "2022-05-17",
+    "activity_type": "Pothole Patching",
+    "cost": 948605,
+    "contractor_id": "C013",
+    "next_scheduled": "2024-05-17"
+  },
+  {
+    "maintenance_id": "M145",
+    "road_id": "R145",
+    "last_relaying_date": "2022-06-05",
+    "activity_type": "Crack Sealing",
+    "cost": 831240,
+    "contractor_id": "C016",
+    "next_scheduled": "2024-06-05"
+  },
+  {
+    "maintenance_id": "M146",
+    "road_id": "R146",
+    "last_relaying_date": "2022-06-24",
+    "activity_type": "Resurfacing",
+    "cost": 1139561,
+    "contractor_id": "C019",
+    "next_scheduled": "2024-06-24"
+  },
+  {
+    "maintenance_id": "M147",
+    "road_id": "R147",
+    "last_relaying_date": "2022-07-13",
+    "activity_type": "Resurfacing",
+    "cost": 893840,
+    "contractor_id": "C002",
+    "next_scheduled": "2024-07-13"
+  },
+  {
+    "maintenance_id": "M148",
+    "road_id": "R148",
+    "last_relaying_date": "2022-08-01",
+    "activity_type": "Crack Sealing",
+    "cost": 857871,
+    "contractor_id": "C005",
+    "next_scheduled": "2024-08-01"
+  },
+  {
+    "maintenance_id": "M149",
+    "road_id": "R149",
+    "last_relaying_date": "2022-08-20",
+    "activity_type": "Resurfacing",
+    "cost": 823880,
+    "contractor_id": "C008",
+    "next_scheduled": "2024-08-20"
+  },
+  {
+    "maintenance_id": "M150",
+    "road_id": "R150",
+    "last_relaying_date": "2022-09-08",
+    "activity_type": "Pothole Patching",
+    "cost": 292398,
+    "contractor_id": "C011",
+    "next_scheduled": "2024-09-08"
+  }
+]

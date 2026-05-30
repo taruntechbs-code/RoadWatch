@@ -1,0 +1,2852 @@
+[
+  {
+    "road_id": "R001",
+    "road_name": "Anna Salai",
+    "road_type": "NH",
+    "zone": "Zone 1",
+    "ward": "Ward 8",
+    "length_km": 5.8,
+    "coordinates": {
+      "start": [
+        13.052,
+        80.168
+      ],
+      "end": [
+        13.063528,
+        80.184286
+      ]
+    },
+    "health_score": 93
+  },
+  {
+    "road_id": "R002",
+    "road_name": "Poonamallee High Road",
+    "road_type": "NH",
+    "zone": "Zone 2",
+    "ward": "Ward 15",
+    "length_km": 2.7,
+    "coordinates": {
+      "start": [
+        13.069,
+        80.191
+      ],
+      "end": [
+        13.056113,
+        80.16563
+      ]
+    },
+    "health_score": 69
+  },
+  {
+    "road_id": "R003",
+    "road_name": "Arcot Road",
+    "road_type": "NH",
+    "zone": "Zone 3",
+    "ward": "Ward 22",
+    "length_km": 4.7,
+    "coordinates": {
+      "start": [
+        13.086,
+        80.214
+      ],
+      "end": [
+        13.115343,
+        80.229412
+      ]
+    },
+    "health_score": 43
+  },
+  {
+    "road_id": "R004",
+    "road_name": "Mount Road",
+    "road_type": "NH",
+    "zone": "Zone 4",
+    "ward": "Ward 29",
+    "length_km": 7.0,
+    "coordinates": {
+      "start": [
+        13.103,
+        80.237
+      ],
+      "end": [
+        13.07735,
+        80.227026
+      ]
+    },
+    "health_score": 45
+  },
+  {
+    "road_id": "R005",
+    "road_name": "GST Road",
+    "road_type": "NH",
+    "zone": "Zone 5",
+    "ward": "Ward 36",
+    "length_km": 4.9,
+    "coordinates": {
+      "start": [
+        13.12,
+        80.26
+      ],
+      "end": [
+        13.141507,
+        80.275922
+      ]
+    },
+    "health_score": 64
+  },
+  {
+    "road_id": "R006",
+    "road_name": "OMR Rajiv Gandhi Salai",
+    "road_type": "NH",
+    "zone": "Zone 6",
+    "ward": "Ward 43",
+    "length_km": 6.7,
+    "coordinates": {
+      "start": [
+        13.042,
+        80.283
+      ],
+      "end": [
+        13.018313,
+        80.259276
+      ]
+    },
+    "health_score": 69
+  },
+  {
+    "road_id": "R007",
+    "road_name": "Anna Salai (Gemini Flyover to Nandanam)",
+    "road_type": "SH",
+    "zone": "Zone 9",
+    "ward": "Ward 174",
+    "length_km": 4.2,
+    "coordinates": {
+      "start": [
+        13.0604,
+        80.2496
+      ],
+      "end": [
+        13.0827,
+        80.2707
+      ]
+    },
+    "health_score": 28
+  },
+  {
+    "road_id": "R008",
+    "road_name": "Sardar Patel Road",
+    "road_type": "NH",
+    "zone": "Zone 8",
+    "ward": "Ward 57",
+    "length_km": 7.7,
+    "coordinates": {
+      "start": [
+        13.076,
+        80.184
+      ],
+      "end": [
+        13.107269,
+        80.1648
+      ]
+    },
+    "health_score": 41
+  },
+  {
+    "road_id": "R009",
+    "road_name": "Velachery Main Road",
+    "road_type": "NH",
+    "zone": "Zone 9",
+    "ward": "Ward 64",
+    "length_km": 1.9,
+    "coordinates": {
+      "start": [
+        13.093,
+        80.207
+      ],
+      "end": [
+        13.120883,
+        80.197026
+      ]
+    },
+    "health_score": 83
+  },
+  {
+    "road_id": "R010",
+    "road_name": "Taramani Link Road",
+    "road_type": "NH",
+    "zone": "Zone 10",
+    "ward": "Ward 71",
+    "length_km": 3.5,
+    "coordinates": {
+      "start": [
+        13.11,
+        80.23
+      ],
+      "end": [
+        13.088427,
+        80.236506
+      ]
+    },
+    "health_score": 94
+  },
+  {
+    "road_id": "R011",
+    "road_name": "Chennai Bypass Road",
+    "road_type": "NH",
+    "zone": "Zone 11",
+    "ward": "Ward 78",
+    "length_km": 8.4,
+    "coordinates": {
+      "start": [
+        13.127,
+        80.253
+      ],
+      "end": [
+        13.139226,
+        80.224172
+      ]
+    },
+    "health_score": 71
+  },
+  {
+    "road_id": "R012",
+    "road_name": "Dr Radhakrishnan Salai",
+    "road_type": "SH",
+    "zone": "Zone 12",
+    "ward": "Ward 85",
+    "length_km": 8.3,
+    "coordinates": {
+      "start": [
+        13.049,
+        80.276
+      ],
+      "end": [
+        13.076217,
+        80.266662
+      ]
+    },
+    "health_score": 65
+  },
+  {
+    "road_id": "R013",
+    "road_name": "Cathedral Road",
+    "road_type": "SH",
+    "zone": "Zone 13",
+    "ward": "Ward 92",
+    "length_km": 5.0,
+    "coordinates": {
+      "start": [
+        13.066,
+        80.154
+      ],
+      "end": [
+        13.053109,
+        80.185073
+      ]
+    },
+    "health_score": 94
+  },
+  {
+    "road_id": "R014",
+    "road_name": "Cenotaph Road",
+    "road_type": "SH",
+    "zone": "Zone 14",
+    "ward": "Ward 99",
+    "length_km": 3.6,
+    "coordinates": {
+      "start": [
+        13.083,
+        80.177
+      ],
+      "end": [
+        13.058463,
+        80.208874
+      ]
+    },
+    "health_score": 76
+  },
+  {
+    "road_id": "R015",
+    "road_name": "Nelson Manickam Road",
+    "road_type": "SH",
+    "zone": "Zone 15",
+    "ward": "Ward 106",
+    "length_km": 5.4,
+    "coordinates": {
+      "start": [
+        13.1,
+        80.2
+      ],
+      "end": [
+        13.109146,
+        80.192335
+      ]
+    },
+    "health_score": 36
+  },
+  {
+    "road_id": "R016",
+    "road_name": "Harrington Road",
+    "road_type": "SH",
+    "zone": "Zone 1",
+    "ward": "Ward 113",
+    "length_km": 1.1,
+    "coordinates": {
+      "start": [
+        13.117,
+        80.223
+      ],
+      "end": [
+        13.095701,
+        80.215154
+      ]
+    },
+    "health_score": 75
+  },
+  {
+    "road_id": "R017",
+    "road_name": "Sterling Road",
+    "road_type": "SH",
+    "zone": "Zone 2",
+    "ward": "Ward 120",
+    "length_km": 2.9,
+    "coordinates": {
+      "start": [
+        13.039,
+        80.246
+      ],
+      "end": [
+        13.009459,
+        80.253842
+      ]
+    },
+    "health_score": 50
+  },
+  {
+    "road_id": "R018",
+    "road_name": "Greams Road",
+    "road_type": "SH",
+    "zone": "Zone 3",
+    "ward": "Ward 127",
+    "length_km": 5.2,
+    "coordinates": {
+      "start": [
+        13.056,
+        80.269
+      ],
+      "end": [
+        13.06757,
+        80.244193
+      ]
+    },
+    "health_score": 91
+  },
+  {
+    "road_id": "R019",
+    "road_name": "Pantheon Road",
+    "road_type": "SH",
+    "zone": "Zone 4",
+    "ward": "Ward 134",
+    "length_km": 1.4,
+    "coordinates": {
+      "start": [
+        13.073,
+        80.147
+      ],
+      "end": [
+        13.085318,
+        80.173995
+      ]
+    },
+    "health_score": 47
+  },
+  {
+    "road_id": "R020",
+    "road_name": "EVR Periyar Salai",
+    "road_type": "SH",
+    "zone": "Zone 5",
+    "ward": "Ward 141",
+    "length_km": 1.0,
+    "coordinates": {
+      "start": [
+        13.09,
+        80.17
+      ],
+      "end": [
+        13.105212,
+        80.188143
+      ]
+    },
+    "health_score": 81
+  },
+  {
+    "road_id": "R021",
+    "road_name": "Jawaharlal Nehru Road",
+    "road_type": "SH",
+    "zone": "Zone 6",
+    "ward": "Ward 148",
+    "length_km": 2.6,
+    "coordinates": {
+      "start": [
+        13.107,
+        80.193
+      ],
+      "end": [
+        13.099424,
+        80.219815
+      ]
+    },
+    "health_score": 41
+  },
+  {
+    "road_id": "R022",
+    "road_name": "Inner Ring Road",
+    "road_type": "SH",
+    "zone": "Zone 7",
+    "ward": "Ward 155",
+    "length_km": 4.3,
+    "coordinates": {
+      "start": [
+        13.124,
+        80.216
+      ],
+      "end": [
+        13.104057,
+        80.199031
+      ]
+    },
+    "health_score": 52
+  },
+  {
+    "road_id": "R023",
+    "road_name": "100 Feet Road",
+    "road_type": "SH",
+    "zone": "Zone 8",
+    "ward": "Ward 162",
+    "length_km": 7.4,
+    "coordinates": {
+      "start": [
+        13.046,
+        80.239
+      ],
+      "end": [
+        13.028479,
+        80.231685
+      ]
+    },
+    "health_score": 69
+  },
+  {
+    "road_id": "R024",
+    "road_name": "Usman Road",
+    "road_type": "SH",
+    "zone": "Zone 9",
+    "ward": "Ward 169",
+    "length_km": 4.5,
+    "coordinates": {
+      "start": [
+        13.063,
+        80.262
+      ],
+      "end": [
+        13.032914,
+        80.251676
+      ]
+    },
+    "health_score": 66
+  },
+  {
+    "road_id": "R025",
+    "road_name": "North Usman Road",
+    "road_type": "SH",
+    "zone": "Zone 10",
+    "ward": "Ward 176",
+    "length_km": 2.7,
+    "coordinates": {
+      "start": [
+        13.08,
+        80.285
+      ],
+      "end": [
+        13.109464,
+        80.269147
+      ]
+    },
+    "health_score": 59
+  },
+  {
+    "road_id": "R026",
+    "road_name": "South Usman Road",
+    "road_type": "SH",
+    "zone": "Zone 11",
+    "ward": "Ward 183",
+    "length_km": 2.4,
+    "coordinates": {
+      "start": [
+        13.097,
+        80.163
+      ],
+      "end": [
+        13.110416,
+        80.173025
+      ]
+    },
+    "health_score": 53
+  },
+  {
+    "road_id": "R027",
+    "road_name": "Burkit Road",
+    "road_type": "SH",
+    "zone": "Zone 12",
+    "ward": "Ward 190",
+    "length_km": 1.0,
+    "coordinates": {
+      "start": [
+        13.114,
+        80.186
+      ],
+      "end": [
+        13.092941,
+        80.160553
+      ]
+    },
+    "health_score": 38
+  },
+  {
+    "road_id": "R028",
+    "road_name": "Venkatanarayana Road",
+    "road_type": "SH",
+    "zone": "Zone 13",
+    "ward": "Ward 197",
+    "length_km": 1.2,
+    "coordinates": {
+      "start": [
+        13.036,
+        80.209
+      ],
+      "end": [
+        13.055074,
+        80.201521
+      ]
+    },
+    "health_score": 67
+  },
+  {
+    "road_id": "R029",
+    "road_name": "Bazullah Road",
+    "road_type": "SH",
+    "zone": "Zone 14",
+    "ward": "Ward 4",
+    "length_km": 3.9,
+    "coordinates": {
+      "start": [
+        13.053,
+        80.232
+      ],
+      "end": [
+        13.045218,
+        80.208444
+      ]
+    },
+    "health_score": 50
+  },
+  {
+    "road_id": "R030",
+    "road_name": "Kodambakkam High Road",
+    "road_type": "SH",
+    "zone": "Zone 15",
+    "ward": "Ward 11",
+    "length_km": 5.9,
+    "coordinates": {
+      "start": [
+        13.07,
+        80.255
+      ],
+      "end": [
+        13.048948,
+        80.232896
+      ]
+    },
+    "health_score": 61
+  },
+  {
+    "road_id": "R031",
+    "road_name": "Dr Ambedkar Road",
+    "road_type": "SH",
+    "zone": "Zone 1",
+    "ward": "Ward 18",
+    "length_km": 2.5,
+    "coordinates": {
+      "start": [
+        13.087,
+        80.278
+      ],
+      "end": [
+        13.117302,
+        80.254587
+      ]
+    },
+    "health_score": 55
+  },
+  {
+    "road_id": "R032",
+    "road_name": "LB Road",
+    "road_type": "SH",
+    "zone": "Zone 2",
+    "ward": "Ward 25",
+    "length_km": 6.7,
+    "coordinates": {
+      "start": [
+        13.104,
+        80.156
+      ],
+      "end": [
+        13.113403,
+        80.173888
+      ]
+    },
+    "health_score": 94
+  },
+  {
+    "road_id": "R033",
+    "road_name": "Thiruvanmiyur Beach Road",
+    "road_type": "SH",
+    "zone": "Zone 3",
+    "ward": "Ward 32",
+    "length_km": 4.7,
+    "coordinates": {
+      "start": [
+        13.121,
+        80.179
+      ],
+      "end": [
+        13.114758,
+        80.171095
+      ]
+    },
+    "health_score": 48
+  },
+  {
+    "road_id": "R034",
+    "road_name": "Madhya Kailash Road",
+    "road_type": "SH",
+    "zone": "Zone 4",
+    "ward": "Ward 39",
+    "length_km": 2.9,
+    "coordinates": {
+      "start": [
+        13.043,
+        80.202
+      ],
+      "end": [
+        13.012735,
+        80.173139
+      ]
+    },
+    "health_score": 58
+  },
+  {
+    "road_id": "R035",
+    "road_name": "Adyar Bridge Road",
+    "road_type": "SH",
+    "zone": "Zone 5",
+    "ward": "Ward 46",
+    "length_km": 5.9,
+    "coordinates": {
+      "start": [
+        13.06,
+        80.225
+      ],
+      "end": [
+        13.087677,
+        80.246904
+      ]
+    },
+    "health_score": 86
+  },
+  {
+    "road_id": "R036",
+    "road_name": "Besant Avenue Road",
+    "road_type": "Corporation",
+    "zone": "Zone 6",
+    "ward": "Ward 53",
+    "length_km": 7.7,
+    "coordinates": {
+      "start": [
+        13.077,
+        80.248
+      ],
+      "end": [
+        13.053636,
+        80.278226
+      ]
+    },
+    "health_score": 90
+  },
+  {
+    "road_id": "R037",
+    "road_name": "Greenways Road",
+    "road_type": "Corporation",
+    "zone": "Zone 7",
+    "ward": "Ward 60",
+    "length_km": 2.9,
+    "coordinates": {
+      "start": [
+        13.094,
+        80.271
+      ],
+      "end": [
+        13.103001,
+        80.245697
+      ]
+    },
+    "health_score": 47
+  },
+  {
+    "road_id": "R038",
+    "road_name": "Santhome High Road",
+    "road_type": "Corporation",
+    "zone": "Zone 8",
+    "ward": "Ward 67",
+    "length_km": 4.7,
+    "coordinates": {
+      "start": [
+        13.111,
+        80.149
+      ],
+      "end": [
+        13.086342,
+        80.125125
+      ]
+    },
+    "health_score": 46
+  },
+  {
+    "road_id": "R039",
+    "road_name": "Mylapore Luz Church Road",
+    "road_type": "Corporation",
+    "zone": "Zone 9",
+    "ward": "Ward 74",
+    "length_km": 2.8,
+    "coordinates": {
+      "start": [
+        13.128,
+        80.172
+      ],
+      "end": [
+        13.157539,
+        80.1636
+      ]
+    },
+    "health_score": 83
+  },
+  {
+    "road_id": "R040",
+    "road_name": "Royapettah High Road",
+    "road_type": "Corporation",
+    "zone": "Zone 10",
+    "ward": "Ward 81",
+    "length_km": 6.6,
+    "coordinates": {
+      "start": [
+        13.05,
+        80.195
+      ],
+      "end": [
+        13.035328,
+        80.172435
+      ]
+    },
+    "health_score": 40
+  },
+  {
+    "road_id": "R041",
+    "road_name": "RK Salai",
+    "road_type": "Corporation",
+    "zone": "Zone 11",
+    "ward": "Ward 88",
+    "length_km": 7.9,
+    "coordinates": {
+      "start": [
+        13.067,
+        80.218
+      ],
+      "end": [
+        13.087584,
+        80.210044
+      ]
+    },
+    "health_score": 74
+  },
+  {
+    "road_id": "R042",
+    "road_name": "TTK Road",
+    "road_type": "Corporation",
+    "zone": "Zone 12",
+    "ward": "Ward 95",
+    "length_km": 3.6,
+    "coordinates": {
+      "start": [
+        13.084,
+        80.241
+      ],
+      "end": [
+        13.056301,
+        80.223826
+      ]
+    },
+    "health_score": 49
+  },
+  {
+    "road_id": "R043",
+    "road_name": "CP Ramaswamy Road",
+    "road_type": "Corporation",
+    "zone": "Zone 13",
+    "ward": "Ward 102",
+    "length_km": 3.5,
+    "coordinates": {
+      "start": [
+        13.101,
+        80.264
+      ],
+      "end": [
+        13.071628,
+        80.240266
+      ]
+    },
+    "health_score": 36
+  },
+  {
+    "road_id": "R044",
+    "road_name": "Kutchery Road",
+    "road_type": "Corporation",
+    "zone": "Zone 14",
+    "ward": "Ward 109",
+    "length_km": 1.9,
+    "coordinates": {
+      "start": [
+        13.118,
+        80.287
+      ],
+      "end": [
+        13.14932,
+        80.25693
+      ]
+    },
+    "health_score": 85
+  },
+  {
+    "road_id": "R045",
+    "road_name": "Mandaveli Street",
+    "road_type": "Corporation",
+    "zone": "Zone 15",
+    "ward": "Ward 116",
+    "length_km": 6.9,
+    "coordinates": {
+      "start": [
+        13.04,
+        80.165
+      ],
+      "end": [
+        13.011083,
+        80.154337
+      ]
+    },
+    "health_score": 51
+  },
+  {
+    "road_id": "R046",
+    "road_name": "Chamiers Road",
+    "road_type": "Corporation",
+    "zone": "Zone 1",
+    "ward": "Ward 123",
+    "length_km": 1.5,
+    "coordinates": {
+      "start": [
+        13.057,
+        80.188
+      ],
+      "end": [
+        13.083858,
+        80.175063
+      ]
+    },
+    "health_score": 74
+  },
+  {
+    "road_id": "R047",
+    "road_name": "Nandanam Extension Road",
+    "road_type": "Corporation",
+    "zone": "Zone 2",
+    "ward": "Ward 130",
+    "length_km": 3.4,
+    "coordinates": {
+      "start": [
+        13.074,
+        80.211
+      ],
+      "end": [
+        13.045677,
+        80.199811
+      ]
+    },
+    "health_score": 59
+  },
+  {
+    "road_id": "R048",
+    "road_name": "Alwarpet Road",
+    "road_type": "Corporation",
+    "zone": "Zone 3",
+    "ward": "Ward 137",
+    "length_km": 1.2,
+    "coordinates": {
+      "start": [
+        13.091,
+        80.234
+      ],
+      "end": [
+        13.079204,
+        80.21764
+      ]
+    },
+    "health_score": 85
+  },
+  {
+    "road_id": "R049",
+    "road_name": "Eldams Road",
+    "road_type": "Corporation",
+    "zone": "Zone 4",
+    "ward": "Ward 144",
+    "length_km": 3.3,
+    "coordinates": {
+      "start": [
+        13.108,
+        80.257
+      ],
+      "end": [
+        13.12313,
+        80.280667
+      ]
+    },
+    "health_score": 64
+  },
+  {
+    "road_id": "R050",
+    "road_name": "Pycrofts Road",
+    "road_type": "Corporation",
+    "zone": "Zone 5",
+    "ward": "Ward 151",
+    "length_km": 1.5,
+    "coordinates": {
+      "start": [
+        13.125,
+        80.28
+      ],
+      "end": [
+        13.116001,
+        80.290643
+      ]
+    },
+    "health_score": 32
+  },
+  {
+    "road_id": "R051",
+    "road_name": "Wallajah Road",
+    "road_type": "Corporation",
+    "zone": "Zone 6",
+    "ward": "Ward 158",
+    "length_km": 3.7,
+    "coordinates": {
+      "start": [
+        13.047,
+        80.158
+      ],
+      "end": [
+        13.061988,
+        80.175346
+      ]
+    },
+    "health_score": 37
+  },
+  {
+    "road_id": "R052",
+    "road_name": "Triplicane High Road",
+    "road_type": "Corporation",
+    "zone": "Zone 7",
+    "ward": "Ward 165",
+    "length_km": 5.0,
+    "coordinates": {
+      "start": [
+        13.064,
+        80.181
+      ],
+      "end": [
+        13.051377,
+        80.187044
+      ]
+    },
+    "health_score": 81
+  },
+  {
+    "road_id": "R053",
+    "road_name": "Bells Road",
+    "road_type": "Corporation",
+    "zone": "Zone 8",
+    "ward": "Ward 172",
+    "length_km": 5.6,
+    "coordinates": {
+      "start": [
+        13.081,
+        80.204
+      ],
+      "end": [
+        13.06553,
+        80.173329
+      ]
+    },
+    "health_score": 51
+  },
+  {
+    "road_id": "R054",
+    "road_name": "Avvai Shanmugam Salai",
+    "road_type": "Corporation",
+    "zone": "Zone 9",
+    "ward": "Ward 179",
+    "length_km": 3.2,
+    "coordinates": {
+      "start": [
+        13.098,
+        80.227
+      ],
+      "end": [
+        13.073286,
+        80.246185
+      ]
+    },
+    "health_score": 56
+  },
+  {
+    "road_id": "R055",
+    "road_name": "Thiru Vi Ka Road",
+    "road_type": "Corporation",
+    "zone": "Zone 10",
+    "ward": "Ward 186",
+    "length_km": 6.7,
+    "coordinates": {
+      "start": [
+        13.115,
+        80.25
+      ],
+      "end": [
+        13.135415,
+        80.233068
+      ]
+    },
+    "health_score": 73
+  },
+  {
+    "road_id": "R056",
+    "road_name": "Paper Mills Road",
+    "road_type": "Corporation",
+    "zone": "Zone 11",
+    "ward": "Ward 193",
+    "length_km": 3.1,
+    "coordinates": {
+      "start": [
+        13.037,
+        80.273
+      ],
+      "end": [
+        13.014997,
+        80.289558
+      ]
+    },
+    "health_score": 30
+  },
+  {
+    "road_id": "R057",
+    "road_name": "Red Hills Road",
+    "road_type": "Corporation",
+    "zone": "Zone 12",
+    "ward": "Ward 200",
+    "length_km": 2.3,
+    "coordinates": {
+      "start": [
+        13.054,
+        80.151
+      ],
+      "end": [
+        13.036823,
+        80.16909
+      ]
+    },
+    "health_score": 73
+  },
+  {
+    "road_id": "R058",
+    "road_name": "Kolathur Main Road",
+    "road_type": "Corporation",
+    "zone": "Zone 13",
+    "ward": "Ward 7",
+    "length_km": 6.0,
+    "coordinates": {
+      "start": [
+        13.071,
+        80.174
+      ],
+      "end": [
+        13.097637,
+        80.15087
+      ]
+    },
+    "health_score": 62
+  },
+  {
+    "road_id": "R059",
+    "road_name": "Perambur High Road",
+    "road_type": "Corporation",
+    "zone": "Zone 14",
+    "ward": "Ward 14",
+    "length_km": 2.2,
+    "coordinates": {
+      "start": [
+        13.088,
+        80.197
+      ],
+      "end": [
+        13.096428,
+        80.173507
+      ]
+    },
+    "health_score": 81
+  },
+  {
+    "road_id": "R060",
+    "road_name": "Madhavaram High Road",
+    "road_type": "Corporation",
+    "zone": "Zone 15",
+    "ward": "Ward 21",
+    "length_km": 4.3,
+    "coordinates": {
+      "start": [
+        13.105,
+        80.22
+      ],
+      "end": [
+        13.097798,
+        80.241893
+      ]
+    },
+    "health_score": 34
+  },
+  {
+    "road_id": "R061",
+    "road_name": "Tondiarpet High Road",
+    "road_type": "Corporation",
+    "zone": "Zone 1",
+    "ward": "Ward 28",
+    "length_km": 5.9,
+    "coordinates": {
+      "start": [
+        13.122,
+        80.243
+      ],
+      "end": [
+        13.097323,
+        80.261854
+      ]
+    },
+    "health_score": 39
+  },
+  {
+    "road_id": "R062",
+    "road_name": "Ennore High Road",
+    "road_type": "Corporation",
+    "zone": "Zone 2",
+    "ward": "Ward 35",
+    "length_km": 7.1,
+    "coordinates": {
+      "start": [
+        13.044,
+        80.266
+      ],
+      "end": [
+        13.014791,
+        80.239761
+      ]
+    },
+    "health_score": 41
+  },
+  {
+    "road_id": "R063",
+    "road_name": "Manali Express Road",
+    "road_type": "Corporation",
+    "zone": "Zone 3",
+    "ward": "Ward 42",
+    "length_km": 1.7,
+    "coordinates": {
+      "start": [
+        13.061,
+        80.289
+      ],
+      "end": [
+        13.068306,
+        80.259146
+      ]
+    },
+    "health_score": 59
+  },
+  {
+    "road_id": "R064",
+    "road_name": "Erukkancheri High Road",
+    "road_type": "Corporation",
+    "zone": "Zone 4",
+    "ward": "Ward 49",
+    "length_km": 5.6,
+    "coordinates": {
+      "start": [
+        13.078,
+        80.167
+      ],
+      "end": [
+        13.101357,
+        80.197701
+      ]
+    },
+    "health_score": 58
+  },
+  {
+    "road_id": "R065",
+    "road_name": "Mint Street",
+    "road_type": "Corporation",
+    "zone": "Zone 5",
+    "ward": "Ward 56",
+    "length_km": 4.4,
+    "coordinates": {
+      "start": [
+        13.095,
+        80.19
+      ],
+      "end": [
+        13.122595,
+        80.219327
+      ]
+    },
+    "health_score": 85
+  },
+  {
+    "road_id": "R066",
+    "road_name": "NSC Bose Road",
+    "road_type": "Corporation",
+    "zone": "Zone 6",
+    "ward": "Ward 63",
+    "length_km": 5.7,
+    "coordinates": {
+      "start": [
+        13.112,
+        80.213
+      ],
+      "end": [
+        13.137546,
+        80.238911
+      ]
+    },
+    "health_score": 61
+  },
+  {
+    "road_id": "R067",
+    "road_name": "Broadway Road",
+    "road_type": "Corporation",
+    "zone": "Zone 7",
+    "ward": "Ward 70",
+    "length_km": 7.8,
+    "coordinates": {
+      "start": [
+        13.129,
+        80.236
+      ],
+      "end": [
+        13.146437,
+        80.248097
+      ]
+    },
+    "health_score": 50
+  },
+  {
+    "road_id": "R068",
+    "road_name": "Rajaji Salai",
+    "road_type": "Corporation",
+    "zone": "Zone 8",
+    "ward": "Ward 77",
+    "length_km": 2.3,
+    "coordinates": {
+      "start": [
+        13.051,
+        80.259
+      ],
+      "end": [
+        13.041402,
+        80.243041
+      ]
+    },
+    "health_score": 75
+  },
+  {
+    "road_id": "R069",
+    "road_name": "Armenian Street",
+    "road_type": "Corporation",
+    "zone": "Zone 9",
+    "ward": "Ward 84",
+    "length_km": 4.0,
+    "coordinates": {
+      "start": [
+        13.068,
+        80.282
+      ],
+      "end": [
+        13.084598,
+        80.29881
+      ]
+    },
+    "health_score": 83
+  },
+  {
+    "road_id": "R070",
+    "road_name": "Wall Tax Road",
+    "road_type": "Corporation",
+    "zone": "Zone 10",
+    "ward": "Ward 91",
+    "length_km": 6.7,
+    "coordinates": {
+      "start": [
+        13.085,
+        80.16
+      ],
+      "end": [
+        13.056725,
+        80.178401
+      ]
+    },
+    "health_score": 49
+  },
+  {
+    "road_id": "R071",
+    "road_name": "Basin Bridge Road",
+    "road_type": "Corporation",
+    "zone": "Zone 11",
+    "ward": "Ward 98",
+    "length_km": 4.5,
+    "coordinates": {
+      "start": [
+        13.102,
+        80.183
+      ],
+      "end": [
+        13.121994,
+        80.164306
+      ]
+    },
+    "health_score": 57
+  },
+  {
+    "road_id": "R072",
+    "road_name": "Vyasarpadi Road",
+    "road_type": "Corporation",
+    "zone": "Zone 12",
+    "ward": "Ward 105",
+    "length_km": 8.0,
+    "coordinates": {
+      "start": [
+        13.119,
+        80.206
+      ],
+      "end": [
+        13.133739,
+        80.230829
+      ]
+    },
+    "health_score": 59
+  },
+  {
+    "road_id": "R073",
+    "road_name": "Pulianthope High Road",
+    "road_type": "Corporation",
+    "zone": "Zone 13",
+    "ward": "Ward 112",
+    "length_km": 7.6,
+    "coordinates": {
+      "start": [
+        13.041,
+        80.229
+      ],
+      "end": [
+        13.01142,
+        80.220817
+      ]
+    },
+    "health_score": 38
+  },
+  {
+    "road_id": "R074",
+    "road_name": "GNT Road",
+    "road_type": "Corporation",
+    "zone": "Zone 14",
+    "ward": "Ward 119",
+    "length_km": 3.3,
+    "coordinates": {
+      "start": [
+        13.058,
+        80.252
+      ],
+      "end": [
+        13.050693,
+        80.266511
+      ]
+    },
+    "health_score": 50
+  },
+  {
+    "road_id": "R075",
+    "road_name": "MTH Road",
+    "road_type": "Corporation",
+    "zone": "Zone 15",
+    "ward": "Ward 126",
+    "length_km": 0.8,
+    "coordinates": {
+      "start": [
+        13.075,
+        80.275
+      ],
+      "end": [
+        13.088235,
+        80.287559
+      ]
+    },
+    "health_score": 60
+  },
+  {
+    "road_id": "R076",
+    "road_name": "Ambattur Estate Road",
+    "road_type": "Corporation",
+    "zone": "Zone 1",
+    "ward": "Ward 133",
+    "length_km": 8.4,
+    "coordinates": {
+      "start": [
+        13.092,
+        80.153
+      ],
+      "end": [
+        13.060002,
+        80.16483
+      ]
+    },
+    "health_score": 79
+  },
+  {
+    "road_id": "R077",
+    "road_name": "Avadi Road",
+    "road_type": "Corporation",
+    "zone": "Zone 2",
+    "ward": "Ward 140",
+    "length_km": 1.8,
+    "coordinates": {
+      "start": [
+        13.109,
+        80.176
+      ],
+      "end": [
+        13.08339,
+        80.164817
+      ]
+    },
+    "health_score": 69
+  },
+  {
+    "road_id": "R078",
+    "road_name": "Korattur Main Road",
+    "road_type": "Corporation",
+    "zone": "Zone 3",
+    "ward": "Ward 147",
+    "length_km": 6.3,
+    "coordinates": {
+      "start": [
+        13.126,
+        80.199
+      ],
+      "end": [
+        13.107687,
+        80.178337
+      ]
+    },
+    "health_score": 59
+  },
+  {
+    "road_id": "R079",
+    "road_name": "Mogappair Main Road",
+    "road_type": "Corporation",
+    "zone": "Zone 4",
+    "ward": "Ward 154",
+    "length_km": 3.1,
+    "coordinates": {
+      "start": [
+        13.048,
+        80.222
+      ],
+      "end": [
+        13.058363,
+        80.195777
+      ]
+    },
+    "health_score": 91
+  },
+  {
+    "road_id": "R080",
+    "road_name": "Nolambur Main Road",
+    "road_type": "Corporation",
+    "zone": "Zone 5",
+    "ward": "Ward 161",
+    "length_km": 1.2,
+    "coordinates": {
+      "start": [
+        13.065,
+        80.245
+      ],
+      "end": [
+        13.034849,
+        80.261313
+      ]
+    },
+    "health_score": 42
+  },
+  {
+    "road_id": "R081",
+    "road_name": "Maduravoyal Bypass Road",
+    "road_type": "Corporation",
+    "zone": "Zone 6",
+    "ward": "Ward 168",
+    "length_km": 1.6,
+    "coordinates": {
+      "start": [
+        13.082,
+        80.268
+      ],
+      "end": [
+        13.073351,
+        80.296108
+      ]
+    },
+    "health_score": 81
+  },
+  {
+    "road_id": "R082",
+    "road_name": "Porur Mount Road",
+    "road_type": "Corporation",
+    "zone": "Zone 7",
+    "ward": "Ward 175",
+    "length_km": 5.8,
+    "coordinates": {
+      "start": [
+        13.099,
+        80.146
+      ],
+      "end": [
+        13.083973,
+        80.1692
+      ]
+    },
+    "health_score": 62
+  },
+  {
+    "road_id": "R083",
+    "road_name": "Kundrathur Main Road",
+    "road_type": "Corporation",
+    "zone": "Zone 8",
+    "ward": "Ward 182",
+    "length_km": 7.8,
+    "coordinates": {
+      "start": [
+        13.116,
+        80.169
+      ],
+      "end": [
+        13.087911,
+        80.177744
+      ]
+    },
+    "health_score": 70
+  },
+  {
+    "road_id": "R084",
+    "road_name": "Manapakkam Main Road",
+    "road_type": "Corporation",
+    "zone": "Zone 9",
+    "ward": "Ward 189",
+    "length_km": 5.9,
+    "coordinates": {
+      "start": [
+        13.038,
+        80.192
+      ],
+      "end": [
+        13.06239,
+        80.20258
+      ]
+    },
+    "health_score": 91
+  },
+  {
+    "road_id": "R085",
+    "road_name": "Guindy Industrial Estate Road",
+    "road_type": "Corporation",
+    "zone": "Zone 10",
+    "ward": "Ward 196",
+    "length_km": 8.2,
+    "coordinates": {
+      "start": [
+        13.055,
+        80.215
+      ],
+      "end": [
+        13.073087,
+        80.22938
+      ]
+    },
+    "health_score": 83
+  },
+  {
+    "road_id": "R086",
+    "road_name": "Race Course Road",
+    "road_type": "Corporation",
+    "zone": "Zone 11",
+    "ward": "Ward 3",
+    "length_km": 6.0,
+    "coordinates": {
+      "start": [
+        13.072,
+        80.238
+      ],
+      "end": [
+        13.100922,
+        80.212488
+      ]
+    },
+    "health_score": 69
+  },
+  {
+    "road_id": "R087",
+    "road_name": "Velachery Bypass Road",
+    "road_type": "Corporation",
+    "zone": "Zone 12",
+    "ward": "Ward 10",
+    "length_km": 7.1,
+    "coordinates": {
+      "start": [
+        13.089,
+        80.261
+      ],
+      "end": [
+        13.095746,
+        80.271728
+      ]
+    },
+    "health_score": 52
+  },
+  {
+    "road_id": "R088",
+    "road_name": "Medavakkam Main Road",
+    "road_type": "Corporation",
+    "zone": "Zone 13",
+    "ward": "Ward 17",
+    "length_km": 2.1,
+    "coordinates": {
+      "start": [
+        13.106,
+        80.284
+      ],
+      "end": [
+        13.119271,
+        80.304451
+      ]
+    },
+    "health_score": 90
+  },
+  {
+    "road_id": "R089",
+    "road_name": "Pallikaranai Radial Road",
+    "road_type": "Corporation",
+    "zone": "Zone 14",
+    "ward": "Ward 24",
+    "length_km": 4.5,
+    "coordinates": {
+      "start": [
+        13.123,
+        80.162
+      ],
+      "end": [
+        13.098278,
+        80.182435
+      ]
+    },
+    "health_score": 74
+  },
+  {
+    "road_id": "R090",
+    "road_name": "Thoraipakkam Pallavaram Road",
+    "road_type": "Corporation",
+    "zone": "Zone 15",
+    "ward": "Ward 31",
+    "length_km": 6.2,
+    "coordinates": {
+      "start": [
+        13.045,
+        80.185
+      ],
+      "end": [
+        13.062653,
+        80.176581
+      ]
+    },
+    "health_score": 55
+  },
+  {
+    "road_id": "R091",
+    "road_name": "Sholinganallur Link Road",
+    "road_type": "Corporation",
+    "zone": "Zone 1",
+    "ward": "Ward 38",
+    "length_km": 4.0,
+    "coordinates": {
+      "start": [
+        13.062,
+        80.208
+      ],
+      "end": [
+        13.085263,
+        80.226305
+      ]
+    },
+    "health_score": 52
+  },
+  {
+    "road_id": "R092",
+    "road_name": "Perungudi Main Road",
+    "road_type": "Corporation",
+    "zone": "Zone 2",
+    "ward": "Ward 45",
+    "length_km": 1.6,
+    "coordinates": {
+      "start": [
+        13.079,
+        80.231
+      ],
+      "end": [
+        13.094147,
+        80.244044
+      ]
+    },
+    "health_score": 44
+  },
+  {
+    "road_id": "R093",
+    "road_name": "Kandanchavadi Road",
+    "road_type": "Corporation",
+    "zone": "Zone 3",
+    "ward": "Ward 52",
+    "length_km": 2.8,
+    "coordinates": {
+      "start": [
+        13.096,
+        80.254
+      ],
+      "end": [
+        13.081796,
+        80.24302
+      ]
+    },
+    "health_score": 60
+  },
+  {
+    "road_id": "R094",
+    "road_name": "Karapakkam Road",
+    "road_type": "Corporation",
+    "zone": "Zone 4",
+    "ward": "Ward 59",
+    "length_km": 3.0,
+    "coordinates": {
+      "start": [
+        13.113,
+        80.277
+      ],
+      "end": [
+        13.144493,
+        80.263298
+      ]
+    },
+    "health_score": 41
+  },
+  {
+    "road_id": "R095",
+    "road_name": "Mugalivakkam Main Road",
+    "road_type": "Corporation",
+    "zone": "Zone 5",
+    "ward": "Ward 66",
+    "length_km": 1.6,
+    "coordinates": {
+      "start": [
+        13.035,
+        80.155
+      ],
+      "end": [
+        13.021868,
+        80.134613
+      ]
+    },
+    "health_score": 90
+  },
+  {
+    "road_id": "R096",
+    "road_name": "Ramapuram Main Road",
+    "road_type": "Corporation",
+    "zone": "Zone 6",
+    "ward": "Ward 73",
+    "length_km": 4.2,
+    "coordinates": {
+      "start": [
+        13.052,
+        80.178
+      ],
+      "end": [
+        13.060667,
+        80.157074
+      ]
+    },
+    "health_score": 60
+  },
+  {
+    "road_id": "R097",
+    "road_name": "Valasaravakkam Main Road",
+    "road_type": "Corporation",
+    "zone": "Zone 7",
+    "ward": "Ward 80",
+    "length_km": 7.3,
+    "coordinates": {
+      "start": [
+        13.069,
+        80.201
+      ],
+      "end": [
+        13.037897,
+        80.231468
+      ]
+    },
+    "health_score": 37
+  },
+  {
+    "road_id": "R098",
+    "road_name": "Virugambakkam Main Road",
+    "road_type": "Corporation",
+    "zone": "Zone 8",
+    "ward": "Ward 87",
+    "length_km": 8.3,
+    "coordinates": {
+      "start": [
+        13.086,
+        80.224
+      ],
+      "end": [
+        13.104785,
+        80.214055
+      ]
+    },
+    "health_score": 66
+  },
+  {
+    "road_id": "R099",
+    "road_name": "Saligramam Main Road",
+    "road_type": "Corporation",
+    "zone": "Zone 9",
+    "ward": "Ward 94",
+    "length_km": 5.4,
+    "coordinates": {
+      "start": [
+        13.103,
+        80.247
+      ],
+      "end": [
+        13.071158,
+        80.22649
+      ]
+    },
+    "health_score": 68
+  },
+  {
+    "road_id": "R100",
+    "road_name": "Ashok Nagar 11th Avenue",
+    "road_type": "Corporation",
+    "zone": "Zone 10",
+    "ward": "Ward 101",
+    "length_km": 7.6,
+    "coordinates": {
+      "start": [
+        13.12,
+        80.27
+      ],
+      "end": [
+        13.093832,
+        80.287713
+      ]
+    },
+    "health_score": 49
+  },
+  {
+    "road_id": "R101",
+    "road_name": "KK Nagar 80 Feet Road",
+    "road_type": "Corporation",
+    "zone": "Zone 11",
+    "ward": "Ward 108",
+    "length_km": 8.3,
+    "coordinates": {
+      "start": [
+        13.042,
+        80.148
+      ],
+      "end": [
+        13.05594,
+        80.12615
+      ]
+    },
+    "health_score": 36
+  },
+  {
+    "road_id": "R102",
+    "road_name": "West Mambalam Road",
+    "road_type": "Corporation",
+    "zone": "Zone 12",
+    "ward": "Ward 115",
+    "length_km": 2.0,
+    "coordinates": {
+      "start": [
+        13.059,
+        80.171
+      ],
+      "end": [
+        13.036737,
+        80.194171
+      ]
+    },
+    "health_score": 45
+  },
+  {
+    "road_id": "R103",
+    "road_name": "Saidapet Jones Road",
+    "road_type": "Corporation",
+    "zone": "Zone 13",
+    "ward": "Ward 122",
+    "length_km": 3.0,
+    "coordinates": {
+      "start": [
+        13.076,
+        80.194
+      ],
+      "end": [
+        13.06593,
+        80.211713
+      ]
+    },
+    "health_score": 60
+  },
+  {
+    "road_id": "R104",
+    "road_name": "Little Mount Road",
+    "road_type": "Corporation",
+    "zone": "Zone 14",
+    "ward": "Ward 129",
+    "length_km": 6.2,
+    "coordinates": {
+      "start": [
+        13.093,
+        80.217
+      ],
+      "end": [
+        13.079509,
+        80.241278
+      ]
+    },
+    "health_score": 34
+  },
+  {
+    "road_id": "R105",
+    "road_name": "Alandur Road",
+    "road_type": "Corporation",
+    "zone": "Zone 15",
+    "ward": "Ward 136",
+    "length_km": 5.8,
+    "coordinates": {
+      "start": [
+        13.11,
+        80.24
+      ],
+      "end": [
+        13.136484,
+        80.222946
+      ]
+    },
+    "health_score": 44
+  },
+  {
+    "road_id": "R106",
+    "road_name": "St Thomas Mount Road",
+    "road_type": "Corporation",
+    "zone": "Zone 1",
+    "ward": "Ward 143",
+    "length_km": 5.4,
+    "coordinates": {
+      "start": [
+        13.127,
+        80.263
+      ],
+      "end": [
+        13.154492,
+        80.255449
+      ]
+    },
+    "health_score": 49
+  },
+  {
+    "road_id": "R107",
+    "road_name": "Pammal Main Road",
+    "road_type": "Corporation",
+    "zone": "Zone 2",
+    "ward": "Ward 150",
+    "length_km": 8.2,
+    "coordinates": {
+      "start": [
+        13.049,
+        80.286
+      ],
+      "end": [
+        13.066418,
+        80.309906
+      ]
+    },
+    "health_score": 55
+  },
+  {
+    "road_id": "R108",
+    "road_name": "Chromepet GST Link Road",
+    "road_type": "Corporation",
+    "zone": "Zone 3",
+    "ward": "Ward 157",
+    "length_km": 5.5,
+    "coordinates": {
+      "start": [
+        13.066,
+        80.164
+      ],
+      "end": [
+        13.083382,
+        80.134875
+      ]
+    },
+    "health_score": 50
+  },
+  {
+    "road_id": "R109",
+    "road_name": "Pallavaram Kundrathur Road",
+    "road_type": "Corporation",
+    "zone": "Zone 4",
+    "ward": "Ward 164",
+    "length_km": 2.8,
+    "coordinates": {
+      "start": [
+        13.083,
+        80.187
+      ],
+      "end": [
+        13.074626,
+        80.155011
+      ]
+    },
+    "health_score": 82
+  },
+  {
+    "road_id": "R110",
+    "road_name": "Tambaram Velachery Road",
+    "road_type": "Corporation",
+    "zone": "Zone 5",
+    "ward": "Ward 171",
+    "length_km": 8.0,
+    "coordinates": {
+      "start": [
+        13.1,
+        80.21
+      ],
+      "end": [
+        13.074159,
+        80.191767
+      ]
+    },
+    "health_score": 58
+  },
+  {
+    "road_id": "R111",
+    "road_name": "Mudichur Road",
+    "road_type": "Corporation",
+    "zone": "Zone 6",
+    "ward": "Ward 178",
+    "length_km": 1.3,
+    "coordinates": {
+      "start": [
+        13.117,
+        80.233
+      ],
+      "end": [
+        13.085079,
+        80.255504
+      ]
+    },
+    "health_score": 92
+  },
+  {
+    "road_id": "R112",
+    "road_name": "Camp Road",
+    "road_type": "Corporation",
+    "zone": "Zone 7",
+    "ward": "Ward 185",
+    "length_km": 3.3,
+    "coordinates": {
+      "start": [
+        13.039,
+        80.256
+      ],
+      "end": [
+        13.055617,
+        80.279423
+      ]
+    },
+    "health_score": 40
+  },
+  {
+    "road_id": "R113",
+    "road_name": "Madipakkam Main Road",
+    "road_type": "Corporation",
+    "zone": "Zone 8",
+    "ward": "Ward 192",
+    "length_km": 4.3,
+    "coordinates": {
+      "start": [
+        13.056,
+        80.279
+      ],
+      "end": [
+        13.069494,
+        80.306153
+      ]
+    },
+    "health_score": 32
+  },
+  {
+    "road_id": "R114",
+    "road_name": "Nanganallur 100 Feet Road",
+    "road_type": "Corporation",
+    "zone": "Zone 9",
+    "ward": "Ward 199",
+    "length_km": 4.8,
+    "coordinates": {
+      "start": [
+        13.073,
+        80.157
+      ],
+      "end": [
+        13.085562,
+        80.125775
+      ]
+    },
+    "health_score": 85
+  },
+  {
+    "road_id": "R115",
+    "road_name": "Ullagaram Road",
+    "road_type": "Corporation",
+    "zone": "Zone 10",
+    "ward": "Ward 6",
+    "length_km": 3.5,
+    "coordinates": {
+      "start": [
+        13.09,
+        80.18
+      ],
+      "end": [
+        13.066901,
+        80.196744
+      ]
+    },
+    "health_score": 63
+  },
+  {
+    "road_id": "R116",
+    "road_name": "Keelkattalai Road",
+    "road_type": "Corporation",
+    "zone": "Zone 11",
+    "ward": "Ward 13",
+    "length_km": 8.1,
+    "coordinates": {
+      "start": [
+        13.107,
+        80.203
+      ],
+      "end": [
+        13.129261,
+        80.191707
+      ]
+    },
+    "health_score": 38
+  },
+  {
+    "road_id": "R117",
+    "road_name": "Hasthinapuram Main Road",
+    "road_type": "Corporation",
+    "zone": "Zone 12",
+    "ward": "Ward 20",
+    "length_km": 7.1,
+    "coordinates": {
+      "start": [
+        13.124,
+        80.226
+      ],
+      "end": [
+        13.152902,
+        80.235157
+      ]
+    },
+    "health_score": 68
+  },
+  {
+    "road_id": "R118",
+    "road_name": "Pozhichalur Road",
+    "road_type": "Corporation",
+    "zone": "Zone 13",
+    "ward": "Ward 27",
+    "length_km": 8.6,
+    "coordinates": {
+      "start": [
+        13.046,
+        80.249
+      ],
+      "end": [
+        13.03192,
+        80.228641
+      ]
+    },
+    "health_score": 44
+  },
+  {
+    "road_id": "R119",
+    "road_name": "Thiruneermalai Road",
+    "road_type": "Corporation",
+    "zone": "Zone 14",
+    "ward": "Ward 34",
+    "length_km": 8.2,
+    "coordinates": {
+      "start": [
+        13.063,
+        80.272
+      ],
+      "end": [
+        13.045002,
+        80.24916
+      ]
+    },
+    "health_score": 61
+  },
+  {
+    "road_id": "R120",
+    "road_name": "Chembarambakkam Road",
+    "road_type": "Corporation",
+    "zone": "Zone 15",
+    "ward": "Ward 41",
+    "length_km": 4.4,
+    "coordinates": {
+      "start": [
+        13.08,
+        80.15
+      ],
+      "end": [
+        13.099231,
+        80.166803
+      ]
+    },
+    "health_score": 92
+  },
+  {
+    "road_id": "R121",
+    "road_name": "Puzhal Camp Road",
+    "road_type": "Corporation",
+    "zone": "Zone 1",
+    "ward": "Ward 48",
+    "length_km": 6.6,
+    "coordinates": {
+      "start": [
+        13.097,
+        80.173
+      ],
+      "end": [
+        13.117333,
+        80.183956
+      ]
+    },
+    "health_score": 62
+  },
+  {
+    "road_id": "R122",
+    "road_name": "Thiruvottiyur High Road",
+    "road_type": "Corporation",
+    "zone": "Zone 2",
+    "ward": "Ward 55",
+    "length_km": 3.4,
+    "coordinates": {
+      "start": [
+        13.114,
+        80.196
+      ],
+      "end": [
+        13.085535,
+        80.22209
+      ]
+    },
+    "health_score": 56
+  },
+  {
+    "road_id": "R123",
+    "road_name": "Kathivakkam High Road",
+    "road_type": "Corporation",
+    "zone": "Zone 3",
+    "ward": "Ward 62",
+    "length_km": 5.3,
+    "coordinates": {
+      "start": [
+        13.036,
+        80.219
+      ],
+      "end": [
+        13.063334,
+        80.243877
+      ]
+    },
+    "health_score": 67
+  },
+  {
+    "road_id": "R124",
+    "road_name": "Sathangadu Road",
+    "road_type": "Corporation",
+    "zone": "Zone 4",
+    "ward": "Ward 69",
+    "length_km": 5.1,
+    "coordinates": {
+      "start": [
+        13.053,
+        80.242
+      ],
+      "end": [
+        13.081497,
+        80.262003
+      ]
+    },
+    "health_score": 51
+  },
+  {
+    "road_id": "R125",
+    "road_name": "Kodungaiyur Road",
+    "road_type": "Corporation",
+    "zone": "Zone 5",
+    "ward": "Ward 76",
+    "length_km": 5.2,
+    "coordinates": {
+      "start": [
+        13.07,
+        80.265
+      ],
+      "end": [
+        13.087839,
+        80.29361
+      ]
+    },
+    "health_score": 45
+  },
+  {
+    "road_id": "R126",
+    "road_name": "Villivakkam Road",
+    "road_type": "Panchayat",
+    "zone": "Zone 6",
+    "ward": "Ward 83",
+    "length_km": 6.3,
+    "coordinates": {
+      "start": [
+        13.087,
+        80.288
+      ],
+      "end": [
+        13.058744,
+        80.295135
+      ]
+    },
+    "health_score": 85
+  },
+  {
+    "road_id": "R127",
+    "road_name": "Ayanavaram Road",
+    "road_type": "Panchayat",
+    "zone": "Zone 7",
+    "ward": "Ward 90",
+    "length_km": 4.7,
+    "coordinates": {
+      "start": [
+        13.104,
+        80.166
+      ],
+      "end": [
+        13.120038,
+        80.147121
+      ]
+    },
+    "health_score": 41
+  },
+  {
+    "road_id": "R128",
+    "road_name": "Kilpauk Garden Road",
+    "road_type": "Panchayat",
+    "zone": "Zone 8",
+    "ward": "Ward 97",
+    "length_km": 0.7,
+    "coordinates": {
+      "start": [
+        13.121,
+        80.189
+      ],
+      "end": [
+        13.149612,
+        80.197593
+      ]
+    },
+    "health_score": 83
+  },
+  {
+    "road_id": "R129",
+    "road_name": "Chetpet Spur Tank Road",
+    "road_type": "Panchayat",
+    "zone": "Zone 9",
+    "ward": "Ward 104",
+    "length_km": 3.3,
+    "coordinates": {
+      "start": [
+        13.043,
+        80.212
+      ],
+      "end": [
+        13.026341,
+        80.204054
+      ]
+    },
+    "health_score": 58
+  },
+  {
+    "road_id": "R130",
+    "road_name": "Nungambakkam High Road",
+    "road_type": "Panchayat",
+    "zone": "Zone 10",
+    "ward": "Ward 111",
+    "length_km": 8.3,
+    "coordinates": {
+      "start": [
+        13.06,
+        80.235
+      ],
+      "end": [
+        13.082896,
+        80.263161
+      ]
+    },
+    "health_score": 73
+  },
+  {
+    "road_id": "R131",
+    "road_name": "College Road",
+    "road_type": "Panchayat",
+    "zone": "Zone 11",
+    "ward": "Ward 118",
+    "length_km": 8.7,
+    "coordinates": {
+      "start": [
+        13.077,
+        80.258
+      ],
+      "end": [
+        13.105682,
+        80.235946
+      ]
+    },
+    "health_score": 61
+  },
+  {
+    "road_id": "R132",
+    "road_name": "Tank Bund Road",
+    "road_type": "Panchayat",
+    "zone": "Zone 12",
+    "ward": "Ward 125",
+    "length_km": 4.2,
+    "coordinates": {
+      "start": [
+        13.094,
+        80.281
+      ],
+      "end": [
+        13.076717,
+        80.25523
+      ]
+    },
+    "health_score": 37
+  },
+  {
+    "road_id": "R133",
+    "road_name": "Lake View Road",
+    "road_type": "Panchayat",
+    "zone": "Zone 13",
+    "ward": "Ward 132",
+    "length_km": 3.5,
+    "coordinates": {
+      "start": [
+        13.111,
+        80.159
+      ],
+      "end": [
+        13.140489,
+        80.144566
+      ]
+    },
+    "health_score": 62
+  },
+  {
+    "road_id": "R134",
+    "road_name": "Habibullah Road",
+    "road_type": "Panchayat",
+    "zone": "Zone 14",
+    "ward": "Ward 139",
+    "length_km": 2.0,
+    "coordinates": {
+      "start": [
+        13.128,
+        80.182
+      ],
+      "end": [
+        13.137785,
+        80.202714
+      ]
+    },
+    "health_score": 48
+  },
+  {
+    "road_id": "R135",
+    "road_name": "GN Chetty Road",
+    "road_type": "Panchayat",
+    "zone": "Zone 15",
+    "ward": "Ward 146",
+    "length_km": 8.0,
+    "coordinates": {
+      "start": [
+        13.05,
+        80.205
+      ],
+      "end": [
+        13.028153,
+        80.227112
+      ]
+    },
+    "health_score": 88
+  },
+  {
+    "road_id": "R136",
+    "road_name": "Sir Thyagaraya Road",
+    "road_type": "Panchayat",
+    "zone": "Zone 1",
+    "ward": "Ward 153",
+    "length_km": 7.9,
+    "coordinates": {
+      "start": [
+        13.067,
+        80.228
+      ],
+      "end": [
+        13.054963,
+        80.245949
+      ]
+    },
+    "health_score": 26
+  },
+  {
+    "road_id": "R137",
+    "road_name": "Mambalam High Road",
+    "road_type": "Panchayat",
+    "zone": "Zone 2",
+    "ward": "Ward 160",
+    "length_km": 5.8,
+    "coordinates": {
+      "start": [
+        13.084,
+        80.251
+      ],
+      "end": [
+        13.113431,
+        80.24308
+      ]
+    },
+    "health_score": 63
+  },
+  {
+    "road_id": "R138",
+    "road_name": "Sivan Koil Street",
+    "road_type": "Panchayat",
+    "zone": "Zone 3",
+    "ward": "Ward 167",
+    "length_km": 7.5,
+    "coordinates": {
+      "start": [
+        13.101,
+        80.274
+      ],
+      "end": [
+        13.124948,
+        80.301978
+      ]
+    },
+    "health_score": 74
+  },
+  {
+    "road_id": "R139",
+    "road_name": "Vadapalani Andavar Koil Street",
+    "road_type": "Panchayat",
+    "zone": "Zone 4",
+    "ward": "Ward 174",
+    "length_km": 0.8,
+    "coordinates": {
+      "start": [
+        13.118,
+        80.152
+      ],
+      "end": [
+        13.105833,
+        80.172945
+      ]
+    },
+    "health_score": 62
+  },
+  {
+    "road_id": "R140",
+    "road_name": "Koyambedu Market Road",
+    "road_type": "Panchayat",
+    "zone": "Zone 5",
+    "ward": "Ward 181",
+    "length_km": 7.3,
+    "coordinates": {
+      "start": [
+        13.04,
+        80.175
+      ],
+      "end": [
+        13.053136,
+        80.145324
+      ]
+    },
+    "health_score": 88
+  },
+  {
+    "road_id": "R141",
+    "road_name": "Nerkundram Road",
+    "road_type": "Panchayat",
+    "zone": "Zone 6",
+    "ward": "Ward 188",
+    "length_km": 5.8,
+    "coordinates": {
+      "start": [
+        13.057,
+        80.198
+      ],
+      "end": [
+        13.083169,
+        80.176216
+      ]
+    },
+    "health_score": 53
+  },
+  {
+    "road_id": "R142",
+    "road_name": "Vanagaram Road",
+    "road_type": "Panchayat",
+    "zone": "Zone 7",
+    "ward": "Ward 195",
+    "length_km": 3.1,
+    "coordinates": {
+      "start": [
+        13.074,
+        80.221
+      ],
+      "end": [
+        13.097622,
+        80.198666
+      ]
+    },
+    "health_score": 30
+  },
+  {
+    "road_id": "R143",
+    "road_name": "Madha Church Road",
+    "road_type": "Panchayat",
+    "zone": "Zone 8",
+    "ward": "Ward 2",
+    "length_km": 3.2,
+    "coordinates": {
+      "start": [
+        13.091,
+        80.244
+      ],
+      "end": [
+        13.097867,
+        80.269041
+      ]
+    },
+    "health_score": 62
+  },
+  {
+    "road_id": "R144",
+    "road_name": "Foreshore Estate Road",
+    "road_type": "Panchayat",
+    "zone": "Zone 9",
+    "ward": "Ward 9",
+    "length_km": 4.9,
+    "coordinates": {
+      "start": [
+        13.108,
+        80.267
+      ],
+      "end": [
+        13.118567,
+        80.240551
+      ]
+    },
+    "health_score": 71
+  },
+  {
+    "road_id": "R145",
+    "road_name": "Pattinapakkam Road",
+    "road_type": "Panchayat",
+    "zone": "Zone 10",
+    "ward": "Ward 16",
+    "length_km": 6.6,
+    "coordinates": {
+      "start": [
+        13.125,
+        80.145
+      ],
+      "end": [
+        13.152592,
+        80.174765
+      ]
+    },
+    "health_score": 62
+  },
+  {
+    "road_id": "R146",
+    "road_name": "Kalakshetra Road",
+    "road_type": "Panchayat",
+    "zone": "Zone 11",
+    "ward": "Ward 23",
+    "length_km": 7.6,
+    "coordinates": {
+      "start": [
+        13.047,
+        80.168
+      ],
+      "end": [
+        13.07391,
+        80.199035
+      ]
+    },
+    "health_score": 53
+  },
+  {
+    "road_id": "R147",
+    "road_name": "Indira Nagar 1st Avenue",
+    "road_type": "Panchayat",
+    "zone": "Zone 12",
+    "ward": "Ward 30",
+    "length_km": 2.7,
+    "coordinates": {
+      "start": [
+        13.064,
+        80.191
+      ],
+      "end": [
+        13.095149,
+        80.199348
+      ]
+    },
+    "health_score": 26
+  },
+  {
+    "road_id": "R148",
+    "road_name": "Shastri Nagar Main Road",
+    "road_type": "Panchayat",
+    "zone": "Zone 13",
+    "ward": "Ward 37",
+    "length_km": 1.5,
+    "coordinates": {
+      "start": [
+        13.081,
+        80.214
+      ],
+      "end": [
+        13.063176,
+        80.235199
+      ]
+    },
+    "health_score": 72
+  },
+  {
+    "road_id": "R149",
+    "road_name": "MG Road Adyar",
+    "road_type": "Panchayat",
+    "zone": "Zone 14",
+    "ward": "Ward 44",
+    "length_km": 5.7,
+    "coordinates": {
+      "start": [
+        13.098,
+        80.237
+      ],
+      "end": [
+        13.079742,
+        80.266797
+      ]
+    },
+    "health_score": 33
+  },
+  {
+    "road_id": "R150",
+    "road_name": "Canal Bank Road",
+    "road_type": "Panchayat",
+    "zone": "Zone 15",
+    "ward": "Ward 51",
+    "length_km": 1.0,
+    "coordinates": {
+      "start": [
+        13.115,
+        80.26
+      ],
+      "end": [
+        13.144644,
+        80.28288
+      ]
+    },
+    "health_score": 42
+  }
+]

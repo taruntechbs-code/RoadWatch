@@ -1,0 +1,202 @@
+[
+  {
+    "contractor_id": "C001",
+    "name": "Sri Murugan Constructions Pvt Ltd",
+    "gstin": "33ABGXX0001X1Z5",
+    "past_projects_count": 21,
+    "active_projects_count": 1,
+    "complaint_count": 3,
+    "repeat_repair_count": 0,
+    "risk_score": 38
+  },
+  {
+    "contractor_id": "C002",
+    "name": "Chennai Urban Infra Works",
+    "gstin": "33ACHXX0002X1Z5",
+    "past_projects_count": 10,
+    "active_projects_count": 5,
+    "complaint_count": 7,
+    "repeat_repair_count": 2,
+    "risk_score": 61
+  },
+  {
+    "contractor_id": "C003",
+    "name": "Kaveri Road Builders",
+    "gstin": "33ADIXX0003X1Z5",
+    "past_projects_count": 31,
+    "active_projects_count": 0,
+    "complaint_count": 17,
+    "repeat_repair_count": 1,
+    "risk_score": 85
+  },
+  {
+    "contractor_id": "C004",
+    "name": "Vetri Civil Contractors",
+    "gstin": "33AEJXX0004X1Z5",
+    "past_projects_count": 18,
+    "active_projects_count": 4,
+    "complaint_count": 0,
+    "repeat_repair_count": 1,
+    "risk_score": 16
+  },
+  {
+    "contractor_id": "C005",
+    "name": "Madras Asphalt Company",
+    "gstin": "33AFKXX0005X1Z5",
+    "past_projects_count": 38,
+    "active_projects_count": 3,
+    "complaint_count": 0,
+    "repeat_repair_count": 8,
+    "risk_score": 51
+  },
+  {
+    "contractor_id": "C006",
+    "name": "Sakthi Pavement Works",
+    "gstin": "33AGLXX0006X1Z5",
+    "past_projects_count": 21,
+    "active_projects_count": 6,
+    "complaint_count": 7,
+    "repeat_repair_count": 7,
+    "risk_score": 81
+  },
+  {
+    "contractor_id": "C007",
+    "name": "Metroline Projects Pvt Ltd",
+    "gstin": "33AHMXX0007X1Z5",
+    "past_projects_count": 31,
+    "active_projects_count": 2,
+    "complaint_count": 0,
+    "repeat_repair_count": 2,
+    "risk_score": 37
+  },
+  {
+    "contractor_id": "C008",
+    "name": "Raja Rajan Infrastructure",
+    "gstin": "33AINXX0008X1Z5",
+    "past_projects_count": 25,
+    "active_projects_count": 0,
+    "complaint_count": 8,
+    "repeat_repair_count": 2,
+    "risk_score": 48
+  },
+  {
+    "contractor_id": "C009",
+    "name": "Srinivasa Highway Works",
+    "gstin": "33AJOXX0009X1Z5",
+    "past_projects_count": 26,
+    "active_projects_count": 6,
+    "complaint_count": 2,
+    "repeat_repair_count": 6,
+    "risk_score": 44
+  },
+  {
+    "contractor_id": "C010",
+    "name": "Bay City Constructions",
+    "gstin": "33AKPXX0010X1Z5",
+    "past_projects_count": 6,
+    "active_projects_count": 5,
+    "complaint_count": 11,
+    "repeat_repair_count": 4,
+    "risk_score": 87
+  },
+  {
+    "contractor_id": "C011",
+    "name": "Thendral Engineering",
+    "gstin": "33ALQXX0011X1Z5",
+    "past_projects_count": 28,
+    "active_projects_count": 0,
+    "complaint_count": 14,
+    "repeat_repair_count": 8,
+    "risk_score": 95
+  },
+  {
+    "contractor_id": "C012",
+    "name": "Annamalai Infra Services",
+    "gstin": "33AMRXX0012X1Z5",
+    "past_projects_count": 27,
+    "active_projects_count": 4,
+    "complaint_count": 17,
+    "repeat_repair_count": 4,
+    "risk_score": 100
+  },
+  {
+    "contractor_id": "C013",
+    "name": "Coromandel Road Systems",
+    "gstin": "33ANSXX0013X1Z5",
+    "past_projects_count": 18,
+    "active_projects_count": 6,
+    "complaint_count": 6,
+    "repeat_repair_count": 1,
+    "risk_score": 31
+  },
+  {
+    "contractor_id": "C014",
+    "name": "VGP Civil Works",
+    "gstin": "33AOTXX0014X1Z5",
+    "past_projects_count": 10,
+    "active_projects_count": 3,
+    "complaint_count": 9,
+    "repeat_repair_count": 1,
+    "risk_score": 47
+  },
+  {
+    "contractor_id": "C015",
+    "name": "Mahalakshmi Contractors",
+    "gstin": "33APFXX0015X1Z5",
+    "past_projects_count": 27,
+    "active_projects_count": 1,
+    "complaint_count": 8,
+    "repeat_repair_count": 7,
+    "risk_score": 87
+  },
+  {
+    "contractor_id": "C016",
+    "name": "East Coast Infra Pvt Ltd",
+    "gstin": "33AQGXX0016X1Z5",
+    "past_projects_count": 21,
+    "active_projects_count": 5,
+    "complaint_count": 11,
+    "repeat_repair_count": 5,
+    "risk_score": 73
+  },
+  {
+    "contractor_id": "C017",
+    "name": "Sembakkam Builders",
+    "gstin": "33ARHXX0017X1Z5",
+    "past_projects_count": 19,
+    "active_projects_count": 1,
+    "complaint_count": 2,
+    "repeat_repair_count": 2,
+    "risk_score": 38
+  },
+  {
+    "contractor_id": "C018",
+    "name": "Marina Municipal Works",
+    "gstin": "33ASIXX0018X1Z5",
+    "past_projects_count": 39,
+    "active_projects_count": 1,
+    "complaint_count": 14,
+    "repeat_repair_count": 6,
+    "risk_score": 90
+  },
+  {
+    "contractor_id": "C019",
+    "name": "Velachery Roadworks LLP",
+    "gstin": "33ATJXX0019X1Z5",
+    "past_projects_count": 6,
+    "active_projects_count": 6,
+    "complaint_count": 10,
+    "repeat_repair_count": 0,
+    "risk_score": 46
+  },
+  {
+    "contractor_id": "C020",
+    "name": "North Chennai Infra Corp",
+    "gstin": "33AAKXX0020X1Z5",
+    "past_projects_count": 8,
+    "active_projects_count": 1,
+    "complaint_count": 10,
+    "repeat_repair_count": 6,
+    "risk_score": 77
+  }
+]
