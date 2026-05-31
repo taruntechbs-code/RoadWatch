@@ -1,5 +1,7 @@
 import os
 import re
+import sys
+import tempfile
 from datetime import datetime
 from pathlib import Path
 from uuid import uuid4
@@ -12,6 +14,7 @@ from supabase import create_client
 from database import get_db
 from models import Authority, Complaint, RoadSegment
 from schemas import (
+    AnalyzeImageResponse,
     ComplaintClassificationResponse,
     ComplaintClassifyRequest,
     ComplaintCreate,
@@ -24,6 +27,8 @@ from services.classifier import classify_complaint
 from services.routing import get_sla_days, route_complaint
 
 router = APIRouter()
+REPO_ROOT = Path(__file__).resolve().parents[2]
+ML_DIR = REPO_ROOT / "ml"
 
 ALLOWED_IMAGE_TYPES = {
     "image/jpeg": ".jpg",
@@ -73,6 +78,9 @@ def complaint_detail(db, complaint):
         urgency_score=complaint.urgency_score,
         safety_risk=complaint.safety_risk,
         ai_reasoning=complaint.ai_reasoning,
+        defect_detected=complaint.defect_detected,
+        defect_confidence=complaint.defect_confidence,
+        defect_bbox=complaint.defect_bbox,
         created_at=complaint.created_at,
     )
 
@@ -91,6 +99,32 @@ def get_supabase_client():
 def sanitize_filename(filename):
     name = Path(filename or "complaint-image").name
     return re.sub(r"[^A-Za-z0-9._-]+", "_", name).strip("._") or "complaint-image"
+
+
+def validate_image_upload(file: UploadFile):
+    extension = ALLOWED_IMAGE_TYPES.get(file.content_type or "")
+    original_extension = Path(file.filename or "").suffix.lower()
+    if not extension or original_extension not in {".jpg", ".jpeg", ".png", ".webp"}:
+        raise HTTPException(status_code=400, detail="Only jpg, jpeg, png, and webp images are allowed")
+    return extension
+
+
+def map_detection_labels_to_issues(labels):
+    mapped = []
+    for raw_label in labels:
+        label = raw_label.lower().replace("_", " ").replace("-", " ")
+        issue = None
+        if "pothole" in label:
+            issue = "Pothole"
+        elif "crack" in label:
+            issue = "Surface Crack"
+        elif "shoulder" in label:
+            issue = "Shoulder Damage"
+        elif "road damage" in label or "damage" in label:
+            issue = "Surface Crack"
+        if issue and issue not in mapped:
+            mapped.append(issue)
+    return mapped
 
 
 def ensure_complaint_columns(db):
@@ -112,6 +146,12 @@ def ensure_complaint_columns(db):
         additions.append(("assigned_authority_id", "TEXT"))
     if "sla_deadline" not in columns:
         additions.append(("sla_deadline", "TIMESTAMP" if dialect == "postgresql" else "DATETIME"))
+    if "defect_detected" not in columns:
+        additions.append(("defect_detected", "TEXT"))
+    if "defect_confidence" not in columns:
+        additions.append(("defect_confidence", "FLOAT"))
+    if "defect_bbox" not in columns:
+        additions.append(("defect_bbox", "JSONB" if dialect == "postgresql" else "JSON"))
 
     if not additions:
         return
@@ -126,10 +166,7 @@ def ensure_complaint_columns(db):
 
 @router.post("/upload-image", response_model=UploadImageResponse)
 async def upload_complaint_image(file: UploadFile = File(...)):
-    extension = ALLOWED_IMAGE_TYPES.get(file.content_type or "")
-    original_extension = Path(file.filename or "").suffix.lower()
-    if not extension or original_extension not in {".jpg", ".jpeg", ".png", ".webp"}:
-        raise HTTPException(status_code=400, detail="Only jpg, jpeg, png, and webp images are allowed")
+    validate_image_upload(file)
 
     content = await file.read()
     if len(content) > MAX_IMAGE_SIZE:
@@ -150,6 +187,40 @@ async def upload_complaint_image(file: UploadFile = File(...)):
         raise HTTPException(status_code=502, detail=f"Image upload failed: {exc}") from exc
 
     return UploadImageResponse(media_url=public_url)
+
+
+@router.post("/analyze-image", response_model=AnalyzeImageResponse)
+async def analyze_complaint_image(file: UploadFile = File(...)):
+    extension = validate_image_upload(file)
+    content = await file.read()
+    if len(content) > MAX_IMAGE_SIZE:
+        raise HTTPException(status_code=400, detail="Image must be 5MB or smaller")
+
+    temp_path = None
+    try:
+        with tempfile.NamedTemporaryFile(delete=False, suffix=extension) as temp_file:
+            temp_file.write(content)
+            temp_path = temp_file.name
+
+        if str(ML_DIR) not in sys.path:
+            sys.path.append(str(ML_DIR))
+
+        from inference import detect_defects
+
+        result = detect_defects(temp_path)
+        result["prefill_issue_types"] = map_detection_labels_to_issues(result.get("detected_labels", []))
+        return AnalyzeImageResponse(**result)
+    except HTTPException:
+        raise
+    except Exception as exc:
+        print(f"Image analysis failed: {exc}")
+        raise HTTPException(status_code=500, detail="Image analysis failed.") from exc
+    finally:
+        if temp_path:
+            try:
+                Path(temp_path).unlink(missing_ok=True)
+            except OSError:
+                pass
 
 
 @router.post("/classify", response_model=ComplaintClassificationResponse)
@@ -190,6 +261,9 @@ def create_complaint(payload: ComplaintCreate, db: Session = Depends(get_db)):
         urgency_score=payload.urgency_score,
         safety_risk=payload.safety_risk,
         ai_reasoning=payload.ai_reasoning,
+        defect_detected=payload.defect_detected,
+        defect_confidence=payload.defect_confidence,
+        defect_bbox=payload.defect_bbox,
         created_at=created_at,
     )
     db.add(complaint)

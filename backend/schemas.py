@@ -80,6 +80,9 @@ class ComplaintCreate(BaseModel):
     urgency_score: int | None = None
     safety_risk: bool | None = None
     ai_reasoning: str | None = None
+    defect_detected: str | None = None
+    defect_confidence: float | None = None
+    defect_bbox: list[dict[str, Any]] | None = None
 
     @model_validator(mode="after")
     def normalize_issue_types(self):
@@ -132,6 +135,9 @@ class ComplaintDetail(BaseModel):
     urgency_score: int | None = None
     safety_risk: bool | None = None
     ai_reasoning: str | None = None
+    defect_detected: str | None = None
+    defect_confidence: float | None = None
+    defect_bbox: list[dict[str, Any]] | None = None
     created_at: datetime | None
 
 
@@ -149,6 +155,22 @@ class ComplaintRouteResponse(BaseModel):
     sla_deadline: datetime | None = None
     sla_days: int | None = None
     message: str | None = None
+
+
+class ImageDefectDetection(BaseModel):
+    label: str
+    confidence: float
+    bbox: list[float]
+
+
+class AnalyzeImageResponse(BaseModel):
+    model_available: bool
+    detections: list[ImageDefectDetection] = Field(default_factory=list)
+    detected_labels: list[str] = Field(default_factory=list)
+    max_confidence: float | None = None
+    severity_band: str | None = None
+    prefill_issue_types: list[str] = Field(default_factory=list)
+    message: str
 
 
 class ComplaintClassifyRequest(BaseModel):

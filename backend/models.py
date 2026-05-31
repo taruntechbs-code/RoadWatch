@@ -71,6 +71,7 @@ class Complaint(Base):
     sla_deadline = mapped_column(DateTime, nullable=True)
     defect_detected = mapped_column(String, nullable=True)
     defect_confidence = mapped_column(Float, nullable=True)
+    defect_bbox = mapped_column(JSON, nullable=True)
     ai_summary = mapped_column(String, nullable=True)
     urgency_score = mapped_column(Integer, nullable=True)
     safety_risk = mapped_column(Boolean, nullable=True)

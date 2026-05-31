@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
-import { classifyComplaint, submitComplaint, uploadImage } from '../api/complaints.js';
+import { analyzeImage, classifyComplaint, submitComplaint, uploadImage } from '../api/complaints.js';
 import { getRoadById, searchRoads } from '../api/roads.js';
 
 const MIN_DESCRIPTION_LENGTH = 25;
@@ -59,6 +59,11 @@ function formatDateTime(value) {
   }).format(new Date(value));
 }
 
+function formatConfidence(value) {
+  if (value == null) return 'Pending';
+  return `${Math.round(Number(value) * 100)}%`;
+}
+
 function ComplaintPage() {
   const [params] = useSearchParams();
   const navigate = useNavigate();
@@ -73,6 +78,9 @@ function ComplaintPage() {
   const [photo, setPhoto] = useState(null);
   const [photoPreview, setPhotoPreview] = useState('');
   const [uploadError, setUploadError] = useState('');
+  const [imageAnalysis, setImageAnalysis] = useState(null);
+  const [imageAnalysisStatus, setImageAnalysisStatus] = useState('idle');
+  const [imageAnalysisError, setImageAnalysisError] = useState('');
   const [classification, setClassification] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
@@ -226,6 +234,9 @@ function ComplaintPage() {
       return;
     }
     setPhoto(file);
+    setImageAnalysis(null);
+    setImageAnalysisStatus('idle');
+    setImageAnalysisError('');
     if (photoPreview) URL.revokeObjectURL(photoPreview);
     setPhotoPreview(URL.createObjectURL(file));
     updateForm('media_url', '');
@@ -236,8 +247,34 @@ function ComplaintPage() {
     setPhoto(null);
     if (photoPreview) URL.revokeObjectURL(photoPreview);
     setPhotoPreview('');
+    setImageAnalysis(null);
+    setImageAnalysisStatus('idle');
+    setImageAnalysisError('');
     updateForm('media_url', '');
     setUploadError('');
+  };
+
+  const runImageAnalysis = async (file) => {
+    if (!file) return null;
+    setImageAnalysisStatus('analyzing');
+    setImageAnalysisError('');
+    try {
+      const result = await analyzeImage(file);
+      setImageAnalysis(result);
+      const suggestions = result.prefill_issue_types || [];
+      if (suggestions.length) {
+        setForm((current) => ({
+          ...current,
+          issue_types: Array.from(new Set([...current.issue_types, ...suggestions])),
+        }));
+      }
+      setImageAnalysisStatus(result.model_available ? 'success' : 'unavailable');
+      return result;
+    } catch {
+      setImageAnalysisStatus('failed');
+      setImageAnalysisError('Photo analysis failed. You can still continue manually.');
+      return null;
+    }
   };
 
   const nextFromStep2 = async () => {
@@ -246,6 +283,10 @@ function ComplaintPage() {
       setLoading(true);
       setError('');
       let mediaUrl = form.media_url;
+      let analysisResult = imageAnalysis;
+      if (photo && (imageAnalysisStatus === 'idle' || imageAnalysisStatus === 'failed')) {
+        analysisResult = await runImageAnalysis(photo);
+      }
       if (photo && !mediaUrl) {
         setUploadError('');
         const uploadResult = await uploadImage(photo);
@@ -253,9 +294,11 @@ function ComplaintPage() {
         updateForm('media_url', mediaUrl);
       }
 
+      const imageIssueSuggestions = analysisResult?.prefill_issue_types || [];
+      const issueTypesForClassification = Array.from(new Set([...form.issue_types, ...imageIssueSuggestions]));
       const aiResult = await classifyComplaint({
         description: form.description,
-        issue_types: classification?.normalized_issue_types || form.issue_types,
+        issue_types: classification?.normalized_issue_types || issueTypesForClassification,
         road_id: form.road_id,
       });
       setClassification(aiResult);
@@ -288,6 +331,9 @@ function ComplaintPage() {
         urgency_score: classification?.urgency_score || null,
         safety_risk: classification?.safety_risk ?? null,
         ai_reasoning: classification?.reasoning || null,
+        defect_detected: imageAnalysis?.detected_labels?.join(', ') || null,
+        defect_confidence: imageAnalysis?.max_confidence ?? null,
+        defect_bbox: imageAnalysis?.detections?.length ? imageAnalysis.detections : null,
       });
       setSuccess(result);
     } catch (submitError) {
@@ -305,6 +351,9 @@ function ComplaintPage() {
     setPhoto(null);
     setPhotoPreview('');
     setUploadError('');
+    setImageAnalysis(null);
+    setImageAnalysisStatus('idle');
+    setImageAnalysisError('');
     setClassification(null);
     setSuccess(null);
     setError('');
@@ -491,6 +540,7 @@ function ComplaintPage() {
               {photoPreview ? (
                 <div className="space-y-3">
                   <img className="mx-auto h-40 rounded-xl object-cover" src={photoPreview} alt="Selected complaint evidence" />
+                  {imageAnalysisStatus === 'analyzing' ? <p className="text-sm text-[#94a3b8]">Analyzing photo for road defects...</p> : null}
                   {loading ? <p className="text-sm text-[#94a3b8]">Uploading image...</p> : null}
                   <button className="text-sm font-semibold text-red-300" onClick={removePhoto}>
                     Remove photo
@@ -503,6 +553,41 @@ function ComplaintPage() {
               )}
               <input ref={fileInputRef} type="file" className="hidden" accept=".jpg,.jpeg,.png,.webp,image/jpeg,image/png,image/webp" onChange={(event) => choosePhoto(event.target.files?.[0])} />
             </div>
+            {photo ? (
+              <div className="rounded-xl bg-[#334155] p-4 text-left">
+                <h3 className="mb-3 text-sm font-semibold uppercase tracking-wide text-[#94a3b8]">Image Analysis</h3>
+                {imageAnalysisStatus === 'idle' ? (
+                  <p className="text-sm text-[#94a3b8]">Photo will be analyzed before review.</p>
+                ) : null}
+                {imageAnalysisStatus === 'analyzing' ? (
+                  <p className="text-sm text-[#94a3b8]">Analyzing photo for road defects...</p>
+                ) : null}
+                {imageAnalysisStatus === 'success' ? (
+                  <div className="space-y-3">
+                    <div className="flex flex-wrap gap-2">
+                      {(imageAnalysis?.detected_labels?.length ? imageAnalysis.detected_labels : ['No defect detected']).map((label) => (
+                        <span key={label} className="rounded-full bg-[#0f172a] px-3 py-1 text-xs font-bold text-[#38bdf8]">
+                          Detected: {label}
+                        </span>
+                      ))}
+                      <span className="rounded-full bg-[#0f172a] px-3 py-1 text-xs font-bold text-[#f1f5f9]">
+                        Confidence: {formatConfidence(imageAnalysis?.max_confidence)}
+                      </span>
+                      <span className="rounded-full bg-[#38bdf8] px-3 py-1 text-xs font-bold text-[#0f172a]">
+                        Severity: {imageAnalysis?.severity_band || 'None'}
+                      </span>
+                    </div>
+                    <p className="text-sm text-[#94a3b8]">These detections are suggestions and can be edited.</p>
+                  </div>
+                ) : null}
+                {imageAnalysisStatus === 'unavailable' ? (
+                  <p className="text-sm text-[#94a3b8]">YOLO model not available yet. Manual issue selection is active.</p>
+                ) : null}
+                {imageAnalysisStatus === 'failed' ? (
+                  <p className="text-sm text-amber-300">{imageAnalysisError || 'Photo analysis failed. You can still continue manually.'}</p>
+                ) : null}
+              </div>
+            ) : null}
             {uploadError ? <p className="rounded-xl bg-red-950 p-3 text-sm text-red-100">{uploadError}</p> : null}
 
             {!canContinueStep2 ? (
@@ -566,6 +651,32 @@ function ComplaintPage() {
                   <span className="text-[#94a3b8]">AI routing summary:</span>{' '}
                   {classification?.summary_english || form.description}
                 </p>
+                {photo ? (
+                  <div className="rounded-xl bg-[#0f172a] p-3">
+                    <p className="font-semibold text-[#f1f5f9]">Photo analysis</p>
+                    {imageAnalysisStatus === 'success' ? (
+                      <div className="mt-2 flex flex-wrap gap-2">
+                        {(imageAnalysis?.detected_labels?.length ? imageAnalysis.detected_labels : ['No defect detected']).map((label) => (
+                          <span key={label} className="rounded-full bg-[#334155] px-3 py-1 text-xs font-bold text-[#38bdf8]">
+                            {label}
+                          </span>
+                        ))}
+                        <span className="rounded-full bg-[#334155] px-3 py-1 text-xs font-bold text-[#f1f5f9]">
+                          Confidence: {formatConfidence(imageAnalysis?.max_confidence)}
+                        </span>
+                        <span className="rounded-full bg-[#38bdf8] px-3 py-1 text-xs font-bold text-[#0f172a]">
+                          {imageAnalysis?.severity_band || 'None'}
+                        </span>
+                      </div>
+                    ) : (
+                      <p className="mt-2 text-sm text-[#94a3b8]">
+                        {imageAnalysisStatus === 'unavailable'
+                          ? 'Photo analysis unavailable. Manual issue selection is active.'
+                          : 'Photo analysis was not completed.'}
+                      </p>
+                    )}
+                  </div>
+                ) : null}
                 <p><span className="text-[#94a3b8]">Description:</span> {form.description.length > 100 ? `${form.description.slice(0, 100)}...` : form.description}</p>
                 <p><span className="text-[#94a3b8]">GPS:</span> {form.lat}, {form.lng}</p>
               </div>

@@ -13,6 +13,15 @@ export async function uploadImage(file) {
   return response.data;
 }
 
+export async function analyzeImage(file) {
+  const formData = new FormData();
+  formData.append('file', file);
+  const response = await api.post('/complaints/analyze-image', formData, {
+    headers: { 'Content-Type': 'multipart/form-data' },
+  });
+  return response.data;
+}
+
 export async function submitComplaint(data) {
   const response = await api.post('/complaints', data);
   return response.data;

@@ -9,4 +9,5 @@ pillow
 httpx
 pydantic
 alembic
+ultralytics
 

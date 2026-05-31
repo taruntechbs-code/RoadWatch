@@ -23,6 +23,11 @@ function formatDateTime(value) {
   }).format(new Date(value));
 }
 
+function formatConfidence(value) {
+  if (value == null) return 'Pending';
+  return `${Math.round(Number(value) * 100)}%`;
+}
+
 function ComplaintTrackerPage() {
   const { complaint_id } = useParams();
   const [complaint, setComplaint] = useState(null);
@@ -49,6 +54,7 @@ function ComplaintTrackerPage() {
   const currentIndex = Math.max(0, statuses.indexOf(complaint?.status || 'Submitted'));
   const issues = complaint?.issue_types?.length ? complaint.issue_types : [complaint?.issue_type].filter(Boolean);
   const hasRouting = Boolean(complaint?.assigned_authority_name);
+  const hasDefectAnalysis = Boolean(complaint?.defect_detected || complaint?.defect_confidence != null);
 
   return (
     <main className="min-h-[calc(100vh-4rem)] bg-[#0f172a] px-4 py-8">
@@ -140,6 +146,25 @@ function ComplaintTrackerPage() {
                   <h3 className="mb-3 text-sm font-semibold uppercase tracking-wide text-[#94a3b8]">Photo</h3>
                   <img className="h-48 w-full rounded-xl object-cover" src={complaint.media_url} alt="Complaint media" />
                 </a>
+              ) : null}
+
+              {hasDefectAnalysis ? (
+                <div className="rounded-xl bg-[#1e293b] p-5 shadow-xl">
+                  <h3 className="mb-3 text-sm font-semibold uppercase tracking-wide text-[#94a3b8]">Photo Analysis</h3>
+                  <div className="flex flex-wrap gap-2">
+                    {(complaint.defect_detected || 'Detected defect').split(',').map((label) => (
+                      <span key={label.trim()} className="rounded-full bg-[#0f172a] px-3 py-1 text-xs font-bold text-[#38bdf8]">
+                        {label.trim()}
+                      </span>
+                    ))}
+                    <span className="rounded-full bg-[#334155] px-3 py-1 text-xs font-bold text-[#f1f5f9]">
+                      Confidence: {formatConfidence(complaint.defect_confidence)}
+                    </span>
+                  </div>
+                  {complaint.defect_bbox?.length ? (
+                    <p className="mt-3 text-sm text-[#94a3b8]">{complaint.defect_bbox.length} detection box{complaint.defect_bbox.length === 1 ? '' : 'es'} saved.</p>
+                  ) : null}
+                </div>
               ) : null}
 
               <div className="rounded-xl bg-[#1e293b] p-5 shadow-xl">
