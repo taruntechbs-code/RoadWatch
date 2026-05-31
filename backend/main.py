@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from routers import authorities, complaints, roads
+from routers import analytics, authorities, complaints, roads
 
 CORS_ORIGINS = [
     "http://localhost:5173",
@@ -37,3 +37,4 @@ def health_check():
 app.include_router(roads.router, prefix="/roads", tags=["roads"])
 app.include_router(complaints.router, prefix="/complaints", tags=["complaints"])
 app.include_router(authorities.router, prefix="/authorities", tags=["authorities"])
+app.include_router(analytics.router, prefix="/analytics", tags=["analytics"])

@@ -178,3 +178,86 @@ class AuthorityDetail(BaseModel):
     zones_handled: list[str] | dict[str, Any] | None
     office_contact: str | None
     email: str | None
+
+
+class BudgetRoadItem(BaseModel):
+    road_id: str
+    road_name: str | None
+    road_type: str | None
+    zone: str | None
+    sanctioned_amount: float
+    spent_amount: float
+    complaint_count: int
+
+
+class BudgetContractorItem(BaseModel):
+    contractor_id: str
+    contractor_name: str | None
+    roads_handled: int
+    sanctioned_amount: float
+    spent_amount: float
+    complaint_count: int
+    repeat_repair_count: int | None
+    risk_score: int | None
+
+
+class BudgetOverviewResponse(BaseModel):
+    by_road: list[BudgetRoadItem]
+    by_contractor: list[BudgetContractorItem]
+
+
+class ComplaintHeatmapPoint(BaseModel):
+    lat: float
+    lng: float
+    intensity: int
+    road_id: str
+    road_name: str | None
+    zone: str | None
+    complaint_count: int
+
+
+class ComplaintHeatmapResponse(BaseModel):
+    points: list[ComplaintHeatmapPoint]
+
+
+class ContractorScoreItem(BaseModel):
+    contractor_id: str
+    contractor_name: str | None
+    roads_handled: int
+    active_projects_count: int | None
+    complaint_count: int
+    repeat_repair_count: int | None
+    flagged_roads_count: int
+    risk_score: int | None
+    performance_band: str
+
+
+class ContractorScoresResponse(BaseModel):
+    contractors: list[ContractorScoreItem]
+
+
+class RoadAnomalyItem(BaseModel):
+    road_id: str
+    road_name: str | None
+    zone: str | None
+    contractor_name: str | None
+    complaint_count: int
+    sanctioned_amount: float
+    spent_amount: float
+    last_relaying_date: date | None
+    health_score: int | None
+    anomaly_flags: list[str]
+
+
+class ContractorAnomalyItem(BaseModel):
+    contractor_id: str
+    contractor_name: str | None
+    flagged_roads_count: int
+    risk_score: int | None
+    adjusted_risk_score: int
+    anomaly_flags: list[str]
+
+
+class AnomaliesResponse(BaseModel):
+    roads: list[RoadAnomalyItem]
+    contractors: list[ContractorAnomalyItem]
