@@ -100,6 +100,12 @@ class ComplaintCreateResponse(BaseModel):
     created_at: datetime
     road_name: str
     message: str
+    assigned_authority_id: str | None = None
+    assigned_authority_name: str | None = None
+    assigned_officer: str | None = None
+    designation: str | None = None
+    sla_deadline: datetime | None = None
+    sla_days: int | None = None
 
 
 class ComplaintDetail(BaseModel):
@@ -120,6 +126,7 @@ class ComplaintDetail(BaseModel):
     assigned_authority_id: str | None
     assigned_authority_name: str | None = None
     assigned_officer: str | None = None
+    designation: str | None = None
     sla_deadline: datetime | None
     ai_summary: str | None = None
     urgency_score: int | None = None
@@ -130,6 +137,18 @@ class ComplaintDetail(BaseModel):
 
 class UploadImageResponse(BaseModel):
     media_url: str
+
+
+class ComplaintRouteResponse(BaseModel):
+    complaint_id: str
+    status: str | None
+    assigned_authority_id: str | None = None
+    assigned_authority_name: str | None = None
+    assigned_officer: str | None = None
+    designation: str | None = None
+    sla_deadline: datetime | None = None
+    sla_days: int | None = None
+    message: str | None = None
 
 
 class ComplaintClassifyRequest(BaseModel):

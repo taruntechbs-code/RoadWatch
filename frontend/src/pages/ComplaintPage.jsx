@@ -48,6 +48,17 @@ function isValidCoordinate(value, min, max) {
   return Number.isFinite(number) && number >= min && number <= max;
 }
 
+function formatDateTime(value) {
+  if (!value) return '';
+  return new Intl.DateTimeFormat('en-IN', {
+    day: '2-digit',
+    month: 'short',
+    year: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+  }).format(new Date(value));
+}
+
 function ComplaintPage() {
   const [params] = useSearchParams();
   const navigate = useNavigate();
@@ -308,6 +319,7 @@ function ComplaintPage() {
   }[locationStatus];
 
   if (success) {
+    const routed = Boolean(success.assigned_authority_name);
     return (
       <main className="min-h-[calc(100vh-4rem)] bg-[#0f172a] px-4 py-8">
         <section className="mx-auto max-w-2xl rounded-xl bg-[#1e293b] p-6 text-center shadow-2xl">
@@ -326,6 +338,19 @@ function ComplaintPage() {
           <div className="mt-5 space-y-2 text-sm text-[#f1f5f9]">
             <p>Submitted to: {success.road_name}</p>
             <p>Status: {success.status}</p>
+            {routed ? (
+              <>
+                <p>Assigned to: {success.assigned_authority_name}</p>
+                <p>
+                  Officer: {success.assigned_officer}
+                  {success.designation ? `, ${success.designation}` : ''}
+                </p>
+                <p>SLA: {success.sla_days} days</p>
+                <p>Deadline: {formatDateTime(success.sla_deadline)}</p>
+              </>
+            ) : (
+              <p className="text-amber-300">Routing pending manual review</p>
+            )}
           </div>
           <div className="mt-6 grid gap-3 sm:grid-cols-3">
             <button

@@ -48,6 +48,7 @@ function ComplaintTrackerPage() {
 
   const currentIndex = Math.max(0, statuses.indexOf(complaint?.status || 'Submitted'));
   const issues = complaint?.issue_types?.length ? complaint.issue_types : [complaint?.issue_type].filter(Boolean);
+  const hasRouting = Boolean(complaint?.assigned_authority_name);
 
   return (
     <main className="min-h-[calc(100vh-4rem)] bg-[#0f172a] px-4 py-8">
@@ -148,8 +149,17 @@ function ComplaintTrackerPage() {
 
               <div className="rounded-xl bg-[#1e293b] p-5 shadow-xl">
                 <h3 className="mb-3 text-sm font-semibold uppercase tracking-wide text-[#94a3b8]">Authority</h3>
-                <p className="font-semibold text-[#f1f5f9]">{complaint.assigned_authority_name || 'Routing pending...'}</p>
-                <p className="mt-2 text-sm text-[#94a3b8]">{complaint.assigned_officer || ''}</p>
+                {hasRouting ? (
+                  <>
+                    <p className="font-semibold text-[#f1f5f9]">{complaint.assigned_authority_name}</p>
+                    <p className="mt-2 text-sm text-[#94a3b8]">
+                      {complaint.assigned_officer}
+                      {complaint.designation ? `, ${complaint.designation}` : ''}
+                    </p>
+                  </>
+                ) : (
+                  <p className="font-semibold text-amber-300">Routing pending manual review</p>
+                )}
               </div>
 
               <div className="rounded-xl bg-[#1e293b] p-5 shadow-xl">

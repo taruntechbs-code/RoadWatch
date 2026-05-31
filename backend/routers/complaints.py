@@ -4,7 +4,7 @@ from datetime import datetime
 from pathlib import Path
 from uuid import uuid4
 
-from fastapi import APIRouter, Depends, File, HTTPException, UploadFile
+from fastapi import APIRouter, Depends, File, HTTPException, Query, UploadFile
 from sqlalchemy import inspect, text
 from sqlalchemy.orm import Session
 from supabase import create_client
@@ -17,9 +17,11 @@ from schemas import (
     ComplaintCreate,
     ComplaintCreateResponse,
     ComplaintDetail,
+    ComplaintRouteResponse,
     UploadImageResponse,
 )
 from services.classifier import classify_complaint
+from services.routing import get_sla_days, route_complaint
 
 router = APIRouter()
 
@@ -35,11 +37,13 @@ STORAGE_BUCKET = "complaint-media"
 def complaint_detail(db, complaint):
     authority_name = None
     assigned_officer = None
+    designation = None
     if complaint.assigned_authority_id:
         authority = db.get(Authority, complaint.assigned_authority_id)
         if authority:
             authority_name = authority.department_name
             assigned_officer = authority.officer_name
+            designation = authority.designation
 
     road = db.get(RoadSegment, complaint.road_id) if complaint.road_id else None
 
@@ -63,6 +67,7 @@ def complaint_detail(db, complaint):
         assigned_authority_id=complaint.assigned_authority_id,
         assigned_authority_name=authority_name,
         assigned_officer=assigned_officer,
+        designation=designation,
         sla_deadline=complaint.sla_deadline,
         ai_summary=complaint.ai_summary,
         urgency_score=complaint.urgency_score,
@@ -103,6 +108,10 @@ def ensure_complaint_columns(db):
         additions.append(("safety_risk", "BOOLEAN"))
     if "ai_reasoning" not in columns:
         additions.append(("ai_reasoning", "TEXT"))
+    if "assigned_authority_id" not in columns:
+        additions.append(("assigned_authority_id", "TEXT"))
+    if "sla_deadline" not in columns:
+        additions.append(("sla_deadline", "TIMESTAMP" if dialect == "postgresql" else "DATETIME"))
 
     if not additions:
         return
@@ -186,22 +195,23 @@ def create_complaint(payload: ComplaintCreate, db: Session = Depends(get_db)):
     db.add(complaint)
     db.commit()
     db.refresh(complaint)
+
+    routing_result = route_complaint(complaint.complaint_id, db)
+    db.refresh(complaint)
+
     return ComplaintCreateResponse(
         complaint_id=complaint.complaint_id,
         status=complaint.status,
         created_at=complaint.created_at,
         road_name=road.road_name,
         message="Your complaint has been submitted successfully.",
+        assigned_authority_id=complaint.assigned_authority_id,
+        assigned_authority_name=routing_result.get("authority_name"),
+        assigned_officer=routing_result.get("officer_name"),
+        designation=routing_result.get("designation"),
+        sla_deadline=complaint.sla_deadline,
+        sla_days=routing_result.get("sla_days") if routing_result.get("routed") else None,
     )
-
-
-@router.get("/{complaint_id}", response_model=ComplaintDetail)
-def get_complaint(complaint_id: str, db: Session = Depends(get_db)):
-    ensure_complaint_columns(db)
-    complaint = db.get(Complaint, complaint_id)
-    if not complaint:
-        raise HTTPException(status_code=404, detail="Complaint not found")
-    return complaint_detail(db, complaint)
 
 
 @router.get("/road/{road_id}", response_model=list[ComplaintDetail])
@@ -214,3 +224,53 @@ def get_road_complaints(road_id: str, db: Session = Depends(get_db)):
         .all()
     )
     return [complaint_detail(db, complaint) for complaint in complaints]
+
+
+@router.post("/{complaint_id}/route", response_model=ComplaintRouteResponse)
+def route_complaint_endpoint(
+    complaint_id: str,
+    force: bool = Query(False),
+    db: Session = Depends(get_db),
+):
+    ensure_complaint_columns(db)
+    complaint = db.get(Complaint, complaint_id)
+    if not complaint:
+        raise HTTPException(status_code=404, detail="Complaint not found")
+
+    if complaint.assigned_authority_id and complaint.status == "Routed" and not force:
+        authority = db.get(Authority, complaint.assigned_authority_id)
+        road = db.get(RoadSegment, complaint.road_id) if complaint.road_id else None
+        return ComplaintRouteResponse(
+            complaint_id=complaint.complaint_id,
+            status=complaint.status,
+            assigned_authority_id=complaint.assigned_authority_id,
+            assigned_authority_name=authority.department_name if authority else None,
+            assigned_officer=authority.officer_name if authority else None,
+            designation=authority.designation if authority else None,
+            sla_deadline=complaint.sla_deadline,
+            sla_days=get_sla_days(complaint.severity, road.road_type if road else None),
+            message="Complaint is already routed.",
+        )
+
+    routing_result = route_complaint(complaint_id, db)
+    db.refresh(complaint)
+    return ComplaintRouteResponse(
+        complaint_id=complaint.complaint_id,
+        status=complaint.status,
+        assigned_authority_id=complaint.assigned_authority_id,
+        assigned_authority_name=routing_result.get("authority_name"),
+        assigned_officer=routing_result.get("officer_name"),
+        designation=routing_result.get("designation"),
+        sla_deadline=complaint.sla_deadline,
+        sla_days=routing_result.get("sla_days") if routing_result.get("routed") else None,
+        message=routing_result.get("message"),
+    )
+
+
+@router.get("/{complaint_id}", response_model=ComplaintDetail)
+def get_complaint(complaint_id: str, db: Session = Depends(get_db)):
+    ensure_complaint_columns(db)
+    complaint = db.get(Complaint, complaint_id)
+    if not complaint:
+        raise HTTPException(status_code=404, detail="Complaint not found")
+    return complaint_detail(db, complaint)
